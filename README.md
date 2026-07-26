@@ -21,7 +21,7 @@ Através do uso de SQL e ferramentas de análise de dados, foram explorados indi
 ## 🛠️ Tecnologias Utilizadas
 
 * **SQL** — consultas, filtros, agregações e análise dos dados;
-* **PostgreSQL/MySQL** — armazenamento e gerenciamento do banco de dados;
+* **MySQL** — armazenamento e gerenciamento do banco de dados;
 * **Excel** — organização inicial dos dados;
 * **Power BI** — criação de dashboards e visualização dos indicadores.
 
