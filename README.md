@@ -8,11 +8,11 @@
 
 Este projeto tem como objetivo praticar SQL, Banco de Dados e Análise de Dados através de uma simulação de vendas de uma grande empresa varejista.
 
-A Magazine Luiza (Magalu) foi utilizada apenas como referência para o cenário do projeto.
+A Magazine Luiza (Magalu) foi utilizada apenas como referência para a criação do cenário.
 
-⚠️ Importante: este projeto não utiliza dados reais da Magazine Luiza. Todos os clientes, produtos, vendas, valores e resultados são fictícios e gerados para fins educacionais.
+«⚠️ Importante: este projeto não utiliza dados reais da Magazine Luiza. Todos os clientes, produtos, vendas, valores e resultados são fictícios e gerados para fins educacionais.»
 
-Durante o projeto, os dados serão utilizados para identificar padrões, tendências e indicadores que poderiam auxiliar na tomada de decisões de negócio.
+Durante o projeto, os dados serão analisados para identificar padrões, tendências e indicadores que poderiam auxiliar na tomada de decisões de negócio.
 
 ---
 
@@ -25,7 +25,7 @@ Durante o projeto, os dados serão utilizados para identificar padrões, tendên
 - Analisar o comportamento dos clientes;
 - Identificar regiões com maior faturamento;
 - Criar indicadores de desempenho (KPIs);
-- Praticar SQL e Banco de Dados;
+- Praticar consultas SQL e Banco de Dados;
 - Desenvolver um dashboard no Power BI.
 
 ---
@@ -36,28 +36,28 @@ Tecnologia| Utilização
 🐍 Python| Geração dos dados fictícios
 🗄️ MySQL| Armazenamento e gerenciamento dos dados
 🔎 SQL| Consultas e análise dos dados
-📊 Power BI| Dashboard e visualização
+📊 Power BI| Dashboard e visualização dos indicadores
 📗 Excel| Organização e exploração dos dados
-💻 VS Code| Desenvolvimento do projeto
+💻 VS Code| Desenvolvimento e organização do projeto
 
 ---
 
 🗂️ Estrutura do Projeto
 
-📁 analise-vendas
+analise-vendas-magalu/
 │
-├── 📁 dados
+├── dados/
 │   ├── clientes.csv
 │   ├── produtos.csv
 │   └── vendas.csv
 │
-├── 📁 sql
+├── sql/
 │   └── consultas.sql
 │
-├── 📁 dashboard
+├── dashboard/
 │   └── dashboard.pbix
 │
-├── 📁 imagens
+├── imagens/
 │   └── dashboard.png
 │
 ├── gerar_dados.py
@@ -171,7 +171,7 @@ A análise será orientada pelas seguintes perguntas:
 
 Os principais resultados serão adicionados após a conclusão das análises.
 
-Nesta seção serão apresentados:
+Serão apresentados indicadores e insights como:
 
 - Faturamento total;
 - Total de vendas;
