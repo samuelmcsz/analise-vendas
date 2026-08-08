@@ -10,7 +10,7 @@ Este projeto tem como objetivo praticar SQL, Banco de Dados e Análise de Dados 
 
 A Magazine Luiza (Magalu) foi utilizada apenas como referência para o cenário do projeto.
 
-«⚠️ Importante: este projeto não utiliza dados reais da Magazine Luiza. Todos os clientes, produtos, vendas, valores e resultados são fictícios e gerados para fins educacionais.»
+⚠️ Importante: este projeto não utiliza dados reais da Magazine Luiza. Todos os clientes, produtos, vendas, valores e resultados são fictícios e gerados para fins educacionais.
 
 Durante o projeto, os dados serão utilizados para identificar padrões, tendências e indicadores que poderiam auxiliar na tomada de decisões de negócio.
 
