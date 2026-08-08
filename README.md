@@ -1,10 +1,10 @@
-📊 Análise de Vendas — Magalu | Data Analytics
+#📊 Análise de Vendas — Magalu | Data Analytics
 
 «Projeto de estudo em Dados & Analytics, utilizando dados fictícios para simular uma análise de vendas inspirada na Magazine Luiza (Magalu).»
 
 ---
 
-📌 Sobre o Projeto
+#📌 Sobre o Projeto
 
 Este projeto tem como objetivo praticar SQL, Banco de Dados e Análise de Dados através de uma simulação de vendas de uma grande empresa varejista.
 
