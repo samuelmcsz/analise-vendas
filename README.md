@@ -1,16 +1,18 @@
 📊 Análise de Vendas — Magalu | Data Analytics
 
-«Projeto de estudo em Dados & Analytics utilizando dados fictícios para simular uma análise de vendas da Magazine Luiza (Magalu).»
+«Projeto de estudo em Dados & Analytics, utilizando dados fictícios para simular uma análise de vendas inspirada na Magazine Luiza (Magalu).»
 
 ---
 
 📌 Sobre o Projeto
 
-Este projeto foi desenvolvido com o objetivo de praticar SQL, Banco de Dados e Análise de Dados através de uma simulação de vendas inspirada na operação de uma grande empresa varejista, utilizando a Magazine Luiza (Magalu) como referência.
+Este projeto tem como objetivo praticar SQL, Banco de Dados e Análise de Dados através de uma simulação de vendas de uma grande empresa varejista.
 
-«⚠️ Importante: este projeto não utiliza dados reais da Magazine Luiza. Todos os clientes, produtos, vendas, valores e resultados são dados fictícios gerados para fins educacionais.»
+A Magazine Luiza (Magalu) foi utilizada apenas como referência para o cenário do projeto.
 
-A análise busca transformar dados brutos em informações e indicadores que poderiam auxiliar na tomada de decisões de negócio.
+«⚠️ Importante: este projeto não utiliza dados reais da Magazine Luiza. Todos os clientes, produtos, vendas, valores e resultados são fictícios e gerados para fins educacionais.»
+
+Durante o projeto, os dados serão utilizados para identificar padrões, tendências e indicadores que poderiam auxiliar na tomada de decisões de negócio.
 
 ---
 
@@ -23,7 +25,7 @@ A análise busca transformar dados brutos em informações e indicadores que pod
 - Analisar o comportamento dos clientes;
 - Identificar regiões com maior faturamento;
 - Criar indicadores de desempenho (KPIs);
-- Praticar consultas SQL e relacionamentos entre tabelas;
+- Praticar SQL e Banco de Dados;
 - Desenvolver um dashboard no Power BI.
 
 ---
@@ -32,11 +34,11 @@ A análise busca transformar dados brutos em informações e indicadores que pod
 
 Tecnologia| Utilização
 🐍 Python| Geração dos dados fictícios
-🗄️ MySQL| Armazenamento e gerenciamento do banco de dados
-🔎 SQL| Consultas, filtros, agregações e análise
-📊 Power BI| Dashboard e visualização dos indicadores
-📗 Excel| Organização e apoio na exploração dos dados
-💻 VS Code| Desenvolvimento e organização do projeto
+🗄️ MySQL| Armazenamento e gerenciamento dos dados
+🔎 SQL| Consultas e análise dos dados
+📊 Power BI| Dashboard e visualização
+📗 Excel| Organização e exploração dos dados
+💻 VS Code| Desenvolvimento do projeto
 
 ---
 
@@ -66,9 +68,11 @@ Tecnologia| Utilização
 
 🗄️ Banco de Dados
 
-O projeto utiliza três tabelas principais:
+O projeto utiliza três tabelas principais.
 
 👥 Clientes
+
+Informações utilizadas:
 
 - ID do cliente;
 - Nome;
@@ -78,12 +82,16 @@ O projeto utiliza três tabelas principais:
 
 📦 Produtos
 
+Informações utilizadas:
+
 - ID do produto;
 - Nome do produto;
 - Categoria;
 - Preço.
 
 🛒 Vendas
+
+Informações utilizadas:
 
 - ID da venda;
 - Data da venda;
@@ -95,9 +103,9 @@ O projeto utiliza três tabelas principais:
 - Faturamento;
 - Forma de pagamento.
 
-📊 Volume de dados
+📊 Volume de Dados
 
-A base foi criada para simular um cenário de vendas:
+A base foi criada utilizando dados fictícios:
 
 - 1.000 clientes
 - 50 produtos
@@ -106,20 +114,20 @@ A base foi criada para simular um cenário de vendas:
 
 ---
 
-📈 Análises Realizadas
+📈 Análises
 
 💰 Faturamento
 
 - Faturamento total;
 - Ticket médio;
-- Evolução do faturamento por mês;
+- Evolução mensal;
 - Comparação entre períodos.
 
 📦 Produtos
 
 - Produtos mais vendidos;
 - Produtos com maior faturamento;
-- Categorias com maior desempenho;
+- Categorias com melhor desempenho;
 - Quantidade de unidades vendidas.
 
 👥 Clientes
@@ -127,12 +135,12 @@ A base foi criada para simular um cenário de vendas:
 - Quantidade de clientes;
 - Clientes com maior volume de compras;
 - Faturamento por cliente;
-- Distribuição dos clientes por região.
+- Distribuição por região.
 
 🌎 Regiões
 
 - Faturamento por região;
-- Quantidade de clientes por região;
+- Quantidade de clientes;
 - Volume de vendas por localização.
 
 💳 Formas de Pagamento
@@ -142,9 +150,9 @@ A base foi criada para simular um cenário de vendas:
 
 ---
 
-🔎 Principais Perguntas de Negócio
+🔎 Perguntas de Negócio
 
-Durante o projeto, algumas perguntas serão utilizadas para orientar a análise:
+A análise será orientada pelas seguintes perguntas:
 
 1. Qual foi o faturamento total?
 2. Qual foi o ticket médio?
@@ -154,16 +162,16 @@ Durante o projeto, algumas perguntas serão utilizadas para orientar a análise:
 6. Qual categoria apresentou o melhor desempenho?
 7. Qual região gerou mais faturamento?
 8. Quais clientes realizaram mais compras?
-9. Qual foi a forma de pagamento mais utilizada?
-10. Existem períodos com desempenho significativamente maior ou menor?
+9. Qual forma de pagamento foi mais utilizada?
+10. Quais períodos apresentaram melhor desempenho?
 
 ---
 
 📊 Resultados
 
-Os principais resultados e insights serão adicionados após a conclusão das análises SQL.
+Os principais resultados serão adicionados após a conclusão das análises.
 
-A seção será atualizada com indicadores como:
+Nesta seção serão apresentados:
 
 - Faturamento total;
 - Total de vendas;
@@ -174,13 +182,15 @@ A seção será atualizada com indicadores como:
 - Regiões com melhor desempenho;
 - Principais padrões encontrados nos dados.
 
-«Observação: todos os resultados apresentados serão baseados nos dados fictícios utilizados neste projeto.»
+«Todos os resultados apresentados serão baseados nos dados fictícios utilizados neste projeto.»
 
 ---
 
 📊 Dashboard
 
-O projeto terá um dashboard desenvolvido no Power BI, contendo indicadores e visualizações como:
+Após a conclusão das análises SQL, os principais indicadores serão apresentados em um dashboard desenvolvido no Power BI.
+
+O dashboard terá visualizações como:
 
 - 💰 Faturamento total;
 - 🛒 Total de vendas;
@@ -199,7 +209,9 @@ Status: 🚧 Em desenvolvimento.
 
 - [x] Criar dados fictícios;
 - [x] Criar banco de dados;
-- [x] Inserir clientes e vendas;
+- [x] Gerar 1.000 clientes;
+- [x] Gerar 50 produtos;
+- [x] Gerar 10.000 vendas;
 - [x] Criar primeiras consultas SQL;
 - [x] Analisar faturamento geral;
 - [x] Analisar faturamento mensal;
@@ -210,13 +222,13 @@ Status: 🚧 Em desenvolvimento.
 - [ ] Analisar regiões;
 - [ ] Analisar formas de pagamento;
 - [ ] Criar KPIs finais;
-- [ ] Desenvolver dashboard no Power BI;
+- [ ] Desenvolver dashboard;
 - [ ] Documentar os principais insights;
 - [ ] Finalizar projeto para portfólio.
 
 ---
 
-📚 O que estou praticando
+📚 O que estou Praticando
 
 Este projeto faz parte dos meus estudos na área de Dados & Analytics.
 
@@ -224,19 +236,20 @@ Durante o desenvolvimento, estou praticando:
 
 - SQL;
 - MySQL;
-- relacionamentos entre tabelas;
+- Banco de Dados;
+- Relacionamento entre tabelas;
 - "SELECT";
 - "WHERE";
 - "GROUP BY";
 - "ORDER BY";
-- funções de agregação;
+- Funções de agregação;
 - "JOIN";
-- criação de indicadores;
-- análise exploratória de dados;
-- visualização de dados;
-- interpretação de resultados de negócio.
+- Criação de KPIs;
+- Análise exploratória de dados;
+- Visualização de dados;
+- Interpretação de resultados.
 
-A ideia é evoluir o projeto de forma prática, documentando o processo e os aprendizados ao longo do desenvolvimento.
+A ideia é desenvolver o projeto de forma prática, aprendendo durante cada etapa e documentando a evolução.
 
 ---
 
@@ -252,10 +265,10 @@ Este projeto foi desenvolvido como parte do meu aprendizado prático na área de
 
 ⚠️ Aviso
 
-Este é um projeto educacional.
+Este é um projeto educacional e fictício.
 
-A Magazine Luiza (Magalu) é utilizada apenas como referência para a simulação.
+A Magazine Luiza (Magalu) foi utilizada apenas como referência para a criação do cenário.
 
-Nenhum dado apresentado neste projeto representa informações reais, internas ou oficiais da empresa.
+Nenhum dado apresentado representa informações reais, internas ou oficiais da empresa.
 
 Todos os clientes, produtos, vendas, valores e resultados foram gerados artificialmente para fins de estudo e portfólio.
