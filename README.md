@@ -180,24 +180,24 @@ O dashboard terá:
 
 ## 🚀 Próximos Passos
 
-* [x] Criar dados fictícios
-* [x] Criar banco de dados
-* [x] Gerar 1.000 clientes
-* [x] Gerar 50 produtos
-* [x] Gerar 10.000 vendas
-* [x] Criar primeiras consultas SQL
-* [x] Analisar faturamento geral
-* [x] Analisar faturamento mensal
-* [ ] Finalizar importação dos produtos
-* [ ] Analisar produtos
-* [ ] Analisar categorias
-* [ ] Analisar clientes
-* [ ] Analisar regiões
-* [ ] Analisar formas de pagamento
-* [ ] Criar KPIs finais
-* [ ] Desenvolver dashboard
-* [ ] Documentar os principais insights
-* [ ] Finalizar projeto para portfólio
+- [x] Criar dados fictícios
+- [x] Criar banco de dados
+- [x] Gerar 1.000 clientes
+- [x] Gerar 50 produtos
+- [x] Gerar 10.000 vendas
+- [x] Criar primeiras consultas SQL
+- [x] Analisar faturamento geral
+- [x] Analisar faturamento mensal
+- [x] Finalizar importação dos produtos
+- [x] Analisar produtos
+- [x] Analisar categorias
+- [x] Analisar clientes
+- [x] Analisar regiões
+- [x] Analisar formas de pagamento
+- [x] Criar KPIs finais
+- [ ] Desenvolver dashboard
+- [ ] Documentar os principais insights
+- [ ] Finalizar projeto para portfólio
 
 ## 📚 O que estou Praticando
 
