@@ -1,41 +1,41 @@
-# 📊 Análise de Vendas — Magalu | Data Analytics
+# 📊 Sales Analysis — Magalu | Data Analytics
 
-> Projeto de estudo em Dados & Analytics utilizando dados fictícios para simular uma análise de vendas inspirada na Magazine Luiza (Magalu).
+> Study project in Data & Analytics using fictional data to simulate a sales analysis inspired by Magazine Luiza (Magalu).
 
-## 📌 Sobre o Projeto
+## 📌 About the Project
 
-Este projeto tem como objetivo praticar SQL, Banco de Dados e Análise de Dados através de uma simulação de vendas de uma grande empresa varejista.
+This project aims to practice SQL, databases, and data analysis through a sales simulation for a large retail company.
 
-A Magazine Luiza (Magalu) foi utilizada apenas como referência para a criação do cenário.
+Magazine Luiza (Magalu) was used only as a reference for creating the scenario.
 
-> ⚠️ Este projeto não utiliza dados reais da Magazine Luiza. Todos os clientes, produtos, vendas, valores e resultados são fictícios e foram gerados para fins educacionais.
+> ⚠️ This project does not use real data from Magazine Luiza. All customers, products, sales, values, and results are fictional and were generated for educational purposes.
 
-Durante o projeto, os dados serão analisados para identificar padrões, tendências e indicadores que poderiam auxiliar na tomada de decisões de negócio.
+Throughout the project, the data will be analyzed to identify patterns, trends, and indicators that could support business decision-making.
 
-## 🎯 Objetivos
+## 🎯 Objectives
 
-* Analisar o desempenho das vendas
-* Identificar produtos com maior faturamento
-* Avaliar a evolução das vendas ao longo do tempo
-* Comparar o desempenho entre categorias
-* Analisar o comportamento dos clientes
-* Identificar regiões com maior faturamento
-* Criar indicadores de desempenho (KPIs)
-* Praticar consultas SQL e Banco de Dados
-* Desenvolver um dashboard no Power BI
+* Analyze sales performance
+* Identify products with the highest revenue
+* Evaluate sales evolution over time
+* Compare performance across categories
+* Analyze customer behavior
+* Identify regions with the highest revenue
+* Create performance indicators (KPIs)
+* Practice SQL queries and database management
+* Develop a Power BI dashboard
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
-| Tecnologia | Utilização                              |
-| ---------- | --------------------------------------- |
-| Python     | Geração dos dados fictícios             |
-| MySQL      | Armazenamento e gerenciamento dos dados |
-| SQL        | Consultas e análise dos dados           |
-| Power BI   | Dashboard e visualização                |
-| Excel      | Organização e exploração dos dados      |
-| VS Code    | Desenvolvimento do projeto              |
+| Technology | Use |
+| ---------- | --- |
+| Python | Generation of fictional data |
+| MySQL | Storage and management of data |
+| SQL | Queries and data analysis |
+| Power BI | Dashboard and visualization |
+| Excel | Data organization and exploration |
+| VS Code | Project development |
 
-## 🗂️ Estrutura do Projeto
+## 🗂️ Project Structure
 
 ```text
 analise-vendas-magalu/
@@ -59,183 +59,183 @@ analise-vendas-magalu/
 └── README.md
 ```
 
-## 🗄️ Banco de Dados
+## 🗄️ Database
 
-O projeto utiliza três tabelas principais.
+The project uses three main tables.
 
-### 👥 Clientes
+### 👥 Customers
 
-* ID do cliente
-* Nome
-* Cidade
-* Estado
-* Região
+* Customer ID
+* Name
+* City
+* State
+* Region
 
-### 📦 Produtos
+### 📦 Products
 
-* ID do produto
-* Nome do produto
-* Categoria
-* Preço
+* Product ID
+* Product name
+* Category
+* Price
 
-### 🛒 Vendas
+### 🛒 Sales
 
-* ID da venda
-* Data da venda
-* Cliente
-* Produto
-* Quantidade
-* Preço unitário
-* Desconto
-* Faturamento
-* Forma de pagamento
+* Sale ID
+* Sale date
+* Customer
+* Product
+* Quantity
+* Unit price
+* Discount
+* Revenue
+* Payment method
 
-### 📊 Volume de Dados
+### 📊 Data Volume
 
-* 1.000 clientes
-* 50 produtos
-* 10.000 vendas
-* Período analisado: 2025
+* 1,000 customers
+* 50 products
+* 10,000 sales
+* Analysis period: 2025
 
-## 📈 Análises
+## 📈 Analyses
 
-### 💰 Faturamento
+### 💰 Revenue
 
-* Faturamento total
-* Ticket médio
-* Evolução mensal
-* Comparação entre períodos
+* Total revenue
+* Average ticket
+* Monthly evolution
+* Comparison between periods
 
-### 📦 Produtos
+### 📦 Products
 
-* Produtos mais vendidos
-* Produtos com maior faturamento
-* Categorias com melhor desempenho
-* Quantidade de unidades vendidas
+* Best-selling products
+* Products with highest revenue
+* Categories with best performance
+* Units sold
 
-### 👥 Clientes
+### 👥 Customers
 
-* Quantidade de clientes
-* Clientes com maior volume de compras
-* Faturamento por cliente
-* Distribuição por região
+* Number of customers
+* Customers with the highest purchase volume
+* Revenue per customer
+* Distribution by region
 
-### 🌎 Regiões
+### 🌎 Regions
 
-* Faturamento por região
-* Quantidade de clientes
-* Volume de vendas por localização
+* Revenue by region
+* Number of customers
+* Sales volume by location
 
-### 💳 Formas de Pagamento
+### 💳 Payment Methods
 
-* Quantidade de vendas por método
-* Faturamento por forma de pagamento
+* Number of sales by method
+* Revenue by payment method
 
-## 🔎 Perguntas de Negócio
+## 🔎 Business Questions
 
-1. Qual foi o faturamento total?
-2. Qual foi o ticket médio?
-3. Qual mês apresentou o maior faturamento?
-4. Quais produtos geraram mais receita?
-5. Quais produtos tiveram maior volume de vendas?
-6. Qual categoria apresentou o melhor desempenho?
-7. Qual região gerou mais faturamento?
-8. Quais clientes realizaram mais compras?
-9. Qual forma de pagamento foi mais utilizada?
-10. Quais períodos apresentaram melhor desempenho?
+1. What was the total revenue?
+2. What was the average ticket?
+3. Which month had the highest revenue?
+4. Which products generated the most revenue?
+5. Which products had the highest sales volume?
+6. Which category performed best?
+7. Which region generated the most revenue?
+8. Which customers made the most purchases?
+9. Which payment method was used the most?
+10. Which periods performed best?
 
-## 📊 Resultados
+## 📊 Results
 
-Os principais resultados serão adicionados após a conclusão das análises.
+The main results will be added after the analysis is completed.
 
-Serão apresentados:
+They will include:
 
-* Faturamento total
-* Total de vendas
-* Ticket médio
-* Melhor e pior período
-* Produtos de maior destaque
-* Categorias com maior faturamento
-* Regiões com melhor desempenho
-* Principais padrões encontrados nos dados
+* Total revenue
+* Total sales
+* Average ticket
+* Best and worst periods
+* Top-performing products
+* Categories with highest revenue
+* Regions with best performance
+* Main patterns found in the data
 
-> Todos os resultados apresentados serão baseados nos dados fictícios utilizados neste projeto.
+> All results presented are based on the fictional data used in this project.
 
 ## 📊 Dashboard
 
-Após a conclusão das análises SQL, os principais indicadores serão apresentados em um dashboard desenvolvido no Power BI.
+After completing the SQL analyses, the main indicators will be presented in a dashboard developed in Power BI.
 
-O dashboard terá:
+The dashboard will include:
 
-* Faturamento total
-* Total de vendas
-* Unidades vendidas
-* Evolução mensal
-* Ranking de produtos
-* Faturamento por categoria
-* Faturamento por região
-* Formas de pagamento
+* Total revenue
+* Total sales
+* Units sold
+* Monthly evolution
+* Product ranking
+* Revenue by category
+* Revenue by region
+* Payment methods
 
-**Status:** 🚧 Em desenvolvimento
+**Status:** 🚧 In development
 
-## 🚀 Próximos Passos
+## 🚀 Next Steps
 
-- [x] Criar dados fictícios
-- [x] Criar banco de dados
-- [x] Gerar 1.000 clientes
-- [x] Gerar 50 produtos
-- [x] Gerar 10.000 vendas
-- [x] Criar primeiras consultas SQL
-- [x] Analisar faturamento geral
-- [x] Analisar faturamento mensal
-- [x] Finalizar importação dos produtos
-- [x] Analisar produtos
-- [x] Analisar categorias
-- [x] Analisar clientes
-- [x] Analisar regiões
-- [x] Analisar formas de pagamento
-- [x] Criar KPIs finais
-- [ ] Desenvolver dashboard
-- [ ] Documentar os principais insights
-- [ ] Finalizar projeto para portfólio
+- [x] Create fictional data
+- [x] Create database
+- [x] Generate 1,000 customers
+- [x] Generate 50 products
+- [x] Generate 10,000 sales
+- [x] Create initial SQL queries
+- [x] Analyze overall revenue
+- [x] Analyze monthly revenue
+- [x] Finalize product import
+- [x] Analyze products
+- [x] Analyze categories
+- [x] Analyze customers
+- [x] Analyze regions
+- [x] Analyze payment methods
+- [x] Create final KPIs
+- [ ] Develop dashboard
+- [ ] Document key insights
+- [ ] Finalize the project for portfolio
 
-## 📚 O que estou Praticando
+## 📚 What I Am Practicing
 
-Este projeto faz parte dos meus estudos na área de Dados & Analytics.
+This project is part of my studies in Data & Analytics.
 
-Durante o desenvolvimento, estou praticando:
+During development, I am practicing:
 
 * SQL
 * MySQL
-* Banco de Dados
-* Relacionamento entre tabelas
+* Database management
+* Table relationships
 * SELECT
 * WHERE
 * GROUP BY
 * ORDER BY
-* Funções de agregação
+* Aggregate functions
 * JOIN
-* Criação de KPIs
-* Análise exploratória de dados
-* Visualização de dados
-* Interpretação de resultados
+* KPI creation
+* Exploratory data analysis
+* Data visualization
+* Result interpretation
 
-A ideia é desenvolver o projeto de forma prática, aprendendo durante cada etapa e documentando a evolução.
+The idea is to develop the project in a practical way, learning at each stage and documenting the progress.
 
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
 **Samuel Martins Cardoso**
 
-Estudante de Dados & Analytics, com foco em SQL, Banco de Dados, Excel e Power BI.
+Data & Analytics student, focused on SQL, databases, Excel, and Power BI.
 
-Este projeto foi desenvolvido como parte do meu aprendizado prático na área de dados, buscando transformar conhecimentos teóricos em um projeto que simule um problema de negócio real.
+This project was developed as part of my practical learning in the data field, with the goal of turning theoretical knowledge into a project that simulates a real business problem.
 
-## ⚠️ Aviso
+## ⚠️ Notice
 
-Este é um projeto educacional e fictício.
+This is an educational and fictional project.
 
-A Magazine Luiza (Magalu) foi utilizada apenas como referência para a criação do cenário.
+Magazine Luiza (Magalu) was used only as a reference for creating the scenario.
 
-Nenhum dado apresentado representa informações reais, internas ou oficiais da empresa.
+No data presented represents real, internal, or official company information.
 
-Todos os clientes, produtos, vendas, valores e resultados foram gerados artificialmente para fins de estudo e portfólio.
+All customers, products, sales, values, and results were generated artificially for study and portfolio purposes.
