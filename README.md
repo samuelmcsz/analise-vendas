@@ -184,7 +184,7 @@ A visualização em Power BI foi planejada como evolução futura.
 
 ## ⚠️ 10. Observações importantes
 
-- Os dados são artificiais e não representam informações reais da Magalu.
+- Os dados são artificiais e não representam informações reais da Magazine Luiza.
 - Caso os CSVs sejam regenerados, os indicadores podem mudar.
 - O projeto tem foco em aprendizado e demonstração de pipeline analítico.
 
