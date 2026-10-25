@@ -1,30 +1,32 @@
-# Análise de Vendas — Magalu | Data Analytics
+# Análise de Vendas — Magalu
 
-Projeto de estudo em Dados e Analytics com dados fictícios para simular uma análise de vendas inspirada no varejo da Magazine Luiza (Magalu).
+Projeto de estudo em dados e analytics com base fictícia inspirada no varejo brasileiro, utilizando Python, MySQL, SQL e, futuramente, Power BI para explorar indicadores, tendências e desempenho comercial.
 
-> **Aviso:** este projeto não utiliza dados reais da Magazine Luiza. Clientes, produtos, vendas, valores e resultados são fictícios e destinados exclusivamente a fins educacionais e de portfólio.
+> Aviso: este projeto não utiliza dados reais da Magazine Luiza (Magalu). Todos os dados, clientes, produtos, vendas e valores são fictícios e foram gerados apenas para fins educacionais e de portfólio.
 
-## Objetivos
+## Visão geral
 
-- Analisar o desempenho das vendas e a evolução mensal do faturamento.
-- Identificar produtos e categorias com maior faturamento e volume.
-- Avaliar clientes, regiões e formas de pagamento.
-- Praticar Python, MySQL e SQL.
-- Construir um dashboard no Power BI.
+Este repositório simula uma análise de vendas em um cenário de e-commerce/retail, com foco em:
 
-## Tecnologias
+- faturamento total e evolução mensal;
+- produtos e categorias mais lucrativas;
+- comportamento por região e cliente;
+- formas de pagamento;
+- validação da qualidade dos dados;
+- uso de SQL para extração de KPIs e insights.
 
-| Tecnologia | Utilização |
-|---|---|
-| Python | Geração dos dados fictícios e carga no banco |
-| MySQL | Armazenamento e consulta dos dados |
-| SQL | Análises, validações e KPIs |
-| Power BI | Dashboard e visualização (em desenvolvimento) |
-| Excel | Organização e exploração dos dados |
+A ideia é praticar a geração de dados sintéticos, a modelagem de banco relacional e a análise exploratória com consultas SQL.
+
+## Stack tecnológica
+
+- Python: geração dos dados fictícios e carga no banco;
+- MySQL: armazenamento dos dados em estrutura relacional;
+- SQL: consultas, KPIs e validação;
+- Power BI: visualização e dashboard (em desenvolvimento);
 
 ## Estrutura do projeto
 
-\`\`\`text
+```text
 analise-vendas/
 ├── dados/
 │   ├── clientes.csv
@@ -33,95 +35,120 @@ analise-vendas/
 ├── sql/
 │   └── consultas.sql
 ├── carregar_mysql.py
-└── README.md
-\`\`\`
+├── README.md
+└── .gitignore
+```
 
 ## Base de dados
 
-- **1.000 clientes**
-- **50 produtos**
-- **10.000 vendas**
-- **Período:** janeiro a dezembro de 2025
+O projeto gera uma base fictícia com:
 
-O banco \`vendas_magalu\` possui três tabelas relacionadas:
+- 1.000 clientes;
+- 50 produtos;
+- 10.000 vendas;
+- período de janeiro a dezembro de 2025.
 
-- \`clientes\`: identificação, nome, cidade, estado e região.
-- \`produtos\`: identificação, nome, categoria e preço.
-- \`vendas\`: data, cliente, produto, quantidade, preço unitário, desconto, faturamento e forma de pagamento.
+### Tabelas principais
+
+- `clientes`: id, nome, cidade, estado e região;
+- `produtos`: id, nome, categoria e preço;
+- `vendas`: data, cliente, produto, quantidade, desconto, faturamento e forma de pagamento.
+
+O banco criado pelo script é chamado `vendas_magalu`.
+
+## Requisitos
+
+Antes de executar o projeto, certifique-se de ter:
+
+- Python 3.x instalado;
+- MySQL Server instalado e em execução;
+- acesso com permissão para criar e excluir bancos de dados;
+- biblioteca `mysql-connector-python`.
 
 ## Como executar
 
-### 1. Pré-requisitos
+### 1) Instale a dependência
 
-- Python 3 instalado.
-- MySQL Server instalado e em execução.
-- Usuário MySQL com permissão para criar e excluir bancos de dados.
-
-### 2. Instalar a dependência
-
-\`\`\`bash
+```bash
 python -m pip install mysql-connector-python
-\`\`\`
+```
 
-### 3. Gerar os dados e carregar no MySQL
+### 2) Execute o script principal
 
-Na pasta raiz do projeto, execute:
+Na raiz do projeto:
 
-\`\`\`bash
+```bash
 python carregar_mysql.py
-\`\`\`
+```
 
-O script único:
+### 3) O que o script faz
 
-1. Verifica os CSVs na pasta \`dados/\`.
-2. Se algum dos três CSVs estiver ausente, gera os arquivos fictícios.
-3. Valida os cabeçalhos dos CSVs.
-4. Solicita a confirmação explícita \`RECRIAR\`.
-5. Recria o banco \`vendas_magalu\`, cria as tabelas e importa os registros.
+O script realiza os seguintes passos:
 
-**Atenção:** confirmar a operação apaga e recria o banco \`vendas_magalu\`, substituindo tabelas e dados que já existam nele. Faça backup antes se precisar preservar o banco. Se a confirmação não for digitada exatamente como solicitado, a carga é cancelada.
+1. verifica se os arquivos CSV já existem em `dados/`;
+2. gera a base fictícia caso algum arquivo esteja ausente;
+3. valida os cabeçalhos dos CSVs;
+4. solicita confirmação explícita com `RECRIAR`;
+5. apaga e recria o banco `vendas_magalu`;
+6. cria as tabelas;
+7. importa os registros para MySQL.
 
-Se os CSVs já existirem, o script os preserva e carrega os dados atuais; uma nova base só é gerada quando pelo menos um dos três arquivos estiver faltando.
+> Atenção: ao confirmar, o banco será recriado e os dados existentes serão substituídos.
 
 ## Consultas SQL
 
-O arquivo [\`sql/consultas.sql\`](sql/consultas.sql) reúne consultas para:
+O arquivo [`sql/consultas.sql`](sql/consultas.sql) reúne consultas para:
 
-- Conferência do volume e validação da qualidade dos dados.
-- KPIs gerais, faturamento e ticket médio.
-- Evolução mensal e variação percentual.
-- Ranking de produtos e desempenho por categoria.
-- Análises de clientes e regiões.
-- Formas de pagamento e resumo executivo.
+- conferência da qualidade dos dados;
+- KPIs gerais de faturamento e ticket médio;
+- evolução mensal do faturamento;
+- ranking de produtos e categorias;
+- análise por cliente e região;
+- comparação por forma de pagamento;
+- resumo executivo.
 
-Execute as consultas após carregar o banco \`vendas_magalu\), usando MySQL 8 ou compatível.
+Após carregar a base no MySQL, é possível executar as consultas diretamente no banco `vendas_magalu`.
 
-## Análises e indicadores
+## Indicadores cobertos
 
-As consultas cobrem faturamento total, quantidade de vendas, ticket médio, unidades vendidas, clientes ativos, evolução mensal, produtos e categorias de destaque, distribuição regional e formas de pagamento. Os resultados são calculados a partir dos CSVs carregados no banco.
+As análises incluem métricas como:
 
-Se os CSVs forem regenerados, os indicadores poderão mudar. Todos os resultados são referentes a dados fictícios e não devem ser interpretados como dados reais da Magalu.
+- faturamento total;
+- quantidade de vendas;
+- ticket médio;
+- unidades vendidas;
+- clientes ativos;
+- desconto médio;
+- faturamento por mês;
+- ranking de produtos e categorias;
+- faturamento por região;
+- desempenho por forma de pagamento.
 
-## Dashboard Power BI
+## Dashboard e próximos passos
 
-**Status:** em desenvolvimento.
+A estrutura atual do projeto está focada em dados, modelagem e consultas SQL. A etapa de visualização em Power BI está planejada para evolução futura.
 
-O dashboard deverá apresentar KPIs gerais, evolução mensal do faturamento, ranking de produtos, desempenho por categoria e região e distribuição por forma de pagamento.
+Checklist:
 
-## Próximas etapas
+- [x] Gerar base fictícia e CSVs;
+- [x] Carregar dados no MySQL;
+- [x] Desenvolver consultas SQL e KPIs;
+- [ ] Construir dashboard no Power BI;
+- [ ] Documentar insights com resultados reais obtidos;
+- [ ] Preparar apresentação para portfólio.
 
-- [x] Criar a base fictícia e os CSVs.
-- [x] Criar o carregamento para MySQL.
-- [x] Desenvolver consultas SQL e KPIs.
-- [ ] Construir o dashboard no Power BI.
-- [ ] Documentar os principais insights com resultados efetivamente obtidos.
-- [ ] Finalizar a apresentação do projeto para portfólio.
+## Observações importantes
+
+- Os dados são artificiais e não representam informações reais da Magalu;
+- Caso os CSVs sejam regenerados, os indicadores podem mudar;
+- O projeto é voltado para aprendizado e demonstração de pipeline analítico.
 
 ## Autor
 
-**Samuel Martins Cardoso**  
-Estudante de Dados e Analytics, com foco em SQL, bancos de dados, Excel e Power BI.
+Samuel Martins Cardoso
+
+Estudante de Dados e Analytics com foco em SQL, bases de dados, Excel e Power BI.
 
 ---
 
-**Nota:** projeto educacional com dados gerados artificialmente. Nenhuma informação representa dados internos, oficiais ou reais da Magazine Luiza.
+Projeto educacional com dados gerados artificialmente. Nenhuma informação representa dados internos, oficiais ou reais da Magazine Luiza.
