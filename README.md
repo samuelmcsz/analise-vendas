@@ -1,10 +1,12 @@
-Análise de Vendas — Magalu
+📊 Análise de Vendas — Magalu
 
 Projeto de estudo em Dados e Analytics, com dados fictícios inspirados no varejo brasileiro, utilizando Python, MySQL, SQL e Power BI para explorar indicadores de desempenho comercial, tendências de venda e comportamento do cliente.
 
 «Aviso: Este projeto não utiliza dados reais da Magazine Luiza (Magalu). Todos os clientes, produtos, vendas e valores foram gerados artificialmente para fins educacionais e de portfólio.»
 
-Visão geral
+---
+
+📌 Visão geral
 
 Este repositório simula uma análise de vendas em um cenário de e-commerce/retail, com foco em:
 
@@ -15,45 +17,64 @@ Este repositório simula uma análise de vendas em um cenário de e-commerce/ret
 - Validação da qualidade dos dados;
 - KPIs e relatórios analíticos em SQL.
 
-A proposta do projeto é praticar a geração de dados sintéticos, a modelagem de um banco de dados relacional e a análise exploratória com consultas SQL.
+A proposta do projeto é praticar a geração de dados sintéticos, a modelagem de um banco relacional e a análise exploratória com consultas SQL.
 
-Stack tecnológica
+---
+
+🛠️ Stack tecnológica
 
 - Python: geração dos dados fictícios e carregamento no banco;
 - MySQL: armazenamento dos dados em estrutura relacional;
 - SQL: consultas, validações e indicadores;
 - Power BI: visualização e dashboard (em desenvolvimento).
 
-Estrutura do projeto
+---
+
+📁 Estrutura do projeto
 
 analise-vendas/
+│
 ├── dados/
 │   ├── clientes.csv
 │   ├── produtos.csv
 │   └── vendas.csv
+│
 ├── sql/
 │   └── consultas.sql
+│
 ├── carregar_mysql.py
 └── README.md
 
-Base de dados
+---
+
+🗄️ Base de dados
 
 O script gera uma base fictícia com:
 
-- 1.000 clientes;
-- 50 produtos;
-- 10.000 vendas;
-- Período: janeiro a dezembro de 2025.
+- 1.000 clientes
+- 50 produtos
+- 10.000 vendas
+- Período: janeiro a dezembro de 2025
 
 Tabelas principais
 
-- "clientes": id, nome, cidade, estado e região;
-- "produtos": id, nome, categoria e preço;
-- "vendas": data, cliente, produto, quantidade, desconto, faturamento e forma de pagamento.
+"clientes"
+
+ID, nome, cidade, estado e região.
+
+"produtos"
+
+ID, nome, categoria e preço.
+
+"vendas"
+
+Data, cliente, produto, quantidade, desconto, faturamento e forma de pagamento.
 
 O banco criado pelo script é chamado "vendas_magalu".
 
-Pré-requisitos
+---
+
+⚙️ Pré-requisitos
 
 Antes de executar o projeto, certifique-se de ter:
 
@@ -62,7 +83,9 @@ Antes de executar o projeto, certifique-se de ter:
 - Permissões para criar e excluir bancos de dados;
 - Pacote "mysql-connector-python".
 
-Como executar
+---
+
+🚀 Como executar
 
 1. Instalar a dependência
 
@@ -88,11 +111,13 @@ O script realiza os seguintes passos:
 
 «Atenção: ao confirmar, o banco será recriado e os dados existentes serão substituídos.»
 
-Consultas SQL
+---
+
+📈 Consultas SQL
 
 O arquivo "sql/consultas.sql" reúne consultas para:
 
-- Conferência da qualidade dos dados;
+- Conferência de qualidade dos dados;
 - KPIs gerais de faturamento e ticket médio;
 - Evolução mensal do faturamento;
 - Ranking de produtos e categorias;
@@ -102,7 +127,9 @@ O arquivo "sql/consultas.sql" reúne consultas para:
 
 Após carregar a base no MySQL, as consultas podem ser executadas diretamente no banco "vendas_magalu".
 
-Indicadores e análises cobertas
+---
+
+📊 Indicadores e análises cobertas
 
 O projeto inclui métricas como:
 
@@ -117,7 +144,9 @@ O projeto inclui métricas como:
 - Faturamento por região;
 - Desempenho por forma de pagamento.
 
-Dashboard e próximos passos
+---
+
+🎯 Dashboard e próximos passos
 
 A etapa atual do projeto está focada em modelagem, geração de dados e análise em SQL. A visualização em Power BI foi planejada como evolução futura.
 
@@ -130,13 +159,17 @@ Checklist do projeto
 - [ ] Documentar insights obtidos em análise;
 - [ ] Preparar apresentação do projeto para portfólio.
 
-Observações importantes
+---
+
+⚠️ Observações importantes
 
 - Os dados são artificiais e não representam informações reais da Magalu;
 - Caso os CSVs sejam regenerados, os indicadores podem mudar;
 - O projeto tem foco em aprendizado e demonstração de pipeline analítico.
 
-Autor
+---
+
+👨‍💻 Autor
 
 Samuel Martins Cardoso
 
