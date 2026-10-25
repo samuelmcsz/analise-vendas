@@ -48,15 +48,9 @@ analise-vendas-magalu/
 ├── sql/
 │   └── consultas.sql
 │
-├── dashboard/
-│   └── dashboard.pbix
+├── README/
 │
-├── imagens/
-│   └── dashboard.png
-│
-├── gerar_dados.py
-│
-└── README.md
+├── gerar.py
 ```
 
 ## 🗄️ Database
