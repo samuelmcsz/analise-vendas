@@ -36,8 +36,6 @@ analise-vendas/
 │   └── consultas.sql
 ├── carregar_mysql.py
 ├── README.md
-└── .gitignore
-```
 
 ## Base de dados
 
