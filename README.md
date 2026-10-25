@@ -1,8 +1,8 @@
 # Análise de Vendas — Magalu
 
-Projeto de estudo em dados e analytics com base fictícia inspirada no varejo brasileiro, utilizando Python, MySQL, SQL e, futuramente, Power BI para explorar indicadores, tendências e desempenho comercial.
+Projeto de estudo em dados e analytics com dados fictícios inspirados no varejo brasileiro, utilizando Python, MySQL, SQL e Power BI para explorar indicadores de desempenho comercial, tendências de venda e comportamento do cliente.
 
-> Aviso: este projeto não utiliza dados reais da Magazine Luiza (Magalu). Todos os dados, clientes, produtos, vendas e valores são fictícios e foram gerados apenas para fins educacionais e de portfólio.
+> Aviso: este projeto não utiliza dados reais da Magazine Luiza (Magalu). Todos os clientes, produtos, vendas e valores foram gerados artificialmente para fins educacionais e de portfólio.
 
 ## Visão geral
 
@@ -10,19 +10,19 @@ Este repositório simula uma análise de vendas em um cenário de e-commerce/ret
 
 - faturamento total e evolução mensal;
 - produtos e categorias mais lucrativas;
-- comportamento por região e cliente;
-- formas de pagamento;
+- clientes e regiões com maior contribuição;
+- formas de pagamento preferidas;
 - validação da qualidade dos dados;
-- uso de SQL para extração de KPIs e insights.
+- KPIs e relatórios analíticos em SQL.
 
-A ideia é praticar a geração de dados sintéticos, a modelagem de banco relacional e a análise exploratória com consultas SQL.
+A proposta do projeto é praticar a geração de dados sintéticos, o modelamento de um banco relacional e a análise exploratória com consultas SQL.
 
 ## Stack tecnológica
 
-- Python: geração dos dados fictícios e carga no banco;
+- Python: geração dos dados fictícios e carregamento no banco;
 - MySQL: armazenamento dos dados em estrutura relacional;
-- SQL: consultas, KPIs e validação;
-- Power BI: visualização e dashboard (em desenvolvimento);
+- SQL: consultas, validações e indicadores;
+- Power BI: visualização e dashboard (em desenvolvimento).
 
 ## Estrutura do projeto
 
@@ -41,12 +41,12 @@ analise-vendas/
 
 ## Base de dados
 
-O projeto gera uma base fictícia com:
+O script gera uma base fictícia com:
 
 - 1.000 clientes;
 - 50 produtos;
 - 10.000 vendas;
-- período de janeiro a dezembro de 2025.
+- período compreendido entre janeiro e dezembro de 2025.
 
 ### Tabelas principais
 
@@ -56,24 +56,24 @@ O projeto gera uma base fictícia com:
 
 O banco criado pelo script é chamado `vendas_magalu`.
 
-## Requisitos
+## Pré-requisitos
 
 Antes de executar o projeto, certifique-se de ter:
 
 - Python 3.x instalado;
-- MySQL Server instalado e em execução;
-- acesso com permissão para criar e excluir bancos de dados;
-- biblioteca `mysql-connector-python`.
+- MySQL Server em execução;
+- permissões para criar e excluir bancos de dados;
+- pacote `mysql-connector-python`.
 
 ## Como executar
 
-### 1) Instale a dependência
+### 1) Instalar a dependência
 
 ```bash
 python -m pip install mysql-connector-python
 ```
 
-### 2) Execute o script principal
+### 2) Executar o script principal
 
 Na raiz do projeto:
 
@@ -85,13 +85,13 @@ python carregar_mysql.py
 
 O script realiza os seguintes passos:
 
-1. verifica se os arquivos CSV já existem em `dados/`;
+1. verifica se os arquivos CSV já existem na pasta `dados/`;
 2. gera a base fictícia caso algum arquivo esteja ausente;
-3. valida os cabeçalhos dos CSVs;
-4. solicita confirmação explícita com `RECRIAR`;
+3. valida os cabeçalhos dos arquivos CSV;
+4. solicita confirmação explícita com a palavra `RECRIAR`;
 5. apaga e recria o banco `vendas_magalu`;
-6. cria as tabelas;
-7. importa os registros para MySQL.
+6. cria as tabelas do banco;
+7. importa os registros para o MySQL.
 
 > Atenção: ao confirmar, o banco será recriado e os dados existentes serão substituídos.
 
@@ -99,7 +99,7 @@ O script realiza os seguintes passos:
 
 O arquivo [`sql/consultas.sql`](sql/consultas.sql) reúne consultas para:
 
-- conferência da qualidade dos dados;
+- conferência de qualidade dos dados;
 - KPIs gerais de faturamento e ticket médio;
 - evolução mensal do faturamento;
 - ranking de produtos e categorias;
@@ -107,11 +107,11 @@ O arquivo [`sql/consultas.sql`](sql/consultas.sql) reúne consultas para:
 - comparação por forma de pagamento;
 - resumo executivo.
 
-Após carregar a base no MySQL, é possível executar as consultas diretamente no banco `vendas_magalu`.
+Após carregar a base no MySQL, as consultas podem ser executadas diretamente no banco `vendas_magalu`.
 
-## Indicadores cobertos
+## Indicadores e análises cobertas
 
-As análises incluem métricas como:
+O projeto inclui métricas como:
 
 - faturamento total;
 - quantidade de vendas;
@@ -126,28 +126,28 @@ As análises incluem métricas como:
 
 ## Dashboard e próximos passos
 
-A estrutura atual do projeto está focada em dados, modelagem e consultas SQL. A etapa de visualização em Power BI está planejada para evolução futura.
+A etapa atual do projeto está focada em modelagem, geração de dados e análise em SQL. A visualização em Power BI foi planejada como evolução futura.
 
 Checklist:
 
-- [x] Gerar base fictícia e CSVs;
+- [x] Gerar base fictícia e arquivos CSV;
 - [x] Carregar dados no MySQL;
 - [x] Desenvolver consultas SQL e KPIs;
 - [ ] Construir dashboard no Power BI;
-- [ ] Documentar insights com resultados reais obtidos;
-- [ ] Preparar apresentação para portfólio.
+- [ ] Documentar insights obtidos em análise;
+- [ ] Preparar apresentação do projeto para portfólio.
 
 ## Observações importantes
 
-- Os dados são artificiais e não representam informações reais da Magalu;
-- Caso os CSVs sejam regenerados, os indicadores podem mudar;
-- O projeto é voltado para aprendizado e demonstração de pipeline analítico.
+- os dados são artificiais e não representam informações reais da Magalu;
+- caso os CSVs sejam regenerados, os indicadores podem mudar;
+- o projeto tem foco em aprendizado e demonstração de pipeline analítico.
 
 ## Autor
 
 Samuel Martins Cardoso
 
-Estudante de Dados e Analytics com foco em SQL, bases de dados, Excel e Power BI.
+Estudante de Dados e Analytics com foco em SQL, bancos de dados, Excel e Power BI.
 
 ---
 
