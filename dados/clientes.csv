@@ -1,0 +1,1001 @@
+id_cliente,nome,cidade,estado,regiao
+1,Daniel Silva,Salvador,BA,Nordeste
+2,Henrique Rodrigues,Salvador,BA,Nordeste
+3,Tatiane Carvalho,São Paulo,SP,Sudeste
+4,Gabriela Pereira,Belo Horizonte,MG,Sudeste
+5,Sérgio Alves,Feira de Santana,BA,Nordeste
+6,Henrique Almeida,Porto Alegre,RS,Sul
+7,Felipe Carvalho,Rio de Janeiro,RJ,Sudeste
+8,Gabriela Costa,Ribeirão Preto,SP,Sudeste
+9,Daniel Ribeiro,Fortaleza,CE,Nordeste
+10,Bruno Almeida,Londrina,PR,Sul
+11,Carla Rocha,São José dos Campos,SP,Sudeste
+12,Lucas Dias,São Paulo,SP,Sudeste
+13,Bruno Pereira,Recife,PE,Nordeste
+14,Henrique Souza,Niterói,RJ,Sudeste
+15,Lucas Ferreira,Rio de Janeiro,RJ,Sudeste
+16,Isabela Oliveira,Porto Alegre,RS,Sul
+17,Sérgio Pereira,Ribeirão Preto,SP,Sudeste
+18,Isabela Rocha,Santos,SP,Sudeste
+19,Bruno Pereira,Fortaleza,CE,Nordeste
+20,Mariana Lima,São José dos Campos,SP,Sudeste
+21,Karina Alves,Joinville,SC,Sul
+22,Olívia Rodrigues,Campinas,SP,Sudeste
+23,Sérgio Rocha,São José dos Campos,SP,Sudeste
+24,Nicolas Dias,Rio de Janeiro,RJ,Sudeste
+25,Eduarda Barbosa,Belo Horizonte,MG,Sudeste
+26,Daniel Rodrigues,Caxias do Sul,RS,Sul
+27,Victor Oliveira,Niterói,RJ,Sudeste
+28,Rafaela Lima,Belém,PA,Norte
+29,Daniel Rocha,Feira de Santana,BA,Nordeste
+30,Daniel Gomes,Uberlândia,MG,Sudeste
+31,Ana Lima,Belém,PA,Norte
+32,Rafaela Souza,Brasília,DF,Centro-Oeste
+33,Rafaela Nascimento,Santos,SP,Sudeste
+34,Felipe Rocha,Manaus,AM,Norte
+35,Victor Costa,Belo Horizonte,MG,Sudeste
+36,Lucas Gomes,Campinas,SP,Sudeste
+37,Tatiane Oliveira,Ribeirão Preto,SP,Sudeste
+38,Carla Rocha,Recife,PE,Nordeste
+39,Pedro Rocha,São José dos Campos,SP,Sudeste
+40,Victor Carvalho,Manaus,AM,Norte
+41,João Martins,Belém,PA,Norte
+42,Olívia Barbosa,Belo Horizonte,MG,Sudeste
+43,Henrique Oliveira,Rio de Janeiro,RJ,Sudeste
+44,Tatiane Pereira,São Paulo,SP,Sudeste
+45,Henrique Oliveira,Goiânia,GO,Centro-Oeste
+46,Carla Barbosa,Ribeirão Preto,SP,Sudeste
+47,Gabriela Rocha,São José dos Campos,SP,Sudeste
+48,Tatiane Lopes,Ribeirão Preto,SP,Sudeste
+49,Nicolas Alves,Ribeirão Preto,SP,Sudeste
+50,Lucas Carvalho,Belo Horizonte,MG,Sudeste
+51,Daniel Santos,Niterói,RJ,Sudeste
+52,Daniel Pereira,São José dos Campos,SP,Sudeste
+53,Olívia Rodrigues,Uberlândia,MG,Sudeste
+54,Olívia Pereira,Brasília,DF,Centro-Oeste
+55,Olívia Rocha,São José dos Campos,SP,Sudeste
+56,Ana Oliveira,Goiânia,GO,Centro-Oeste
+57,Felipe Carvalho,Belo Horizonte,MG,Sudeste
+58,Mariana Santos,São Paulo,SP,Sudeste
+59,Mariana Lima,Goiânia,GO,Centro-Oeste
+60,João Carvalho,Feira de Santana,BA,Nordeste
+61,Eduarda Alves,São Paulo,SP,Sudeste
+62,Tatiane Rocha,Santos,SP,Sudeste
+63,Bruno Santos,Porto Alegre,RS,Sul
+64,Bruno Barbosa,Campinas,SP,Sudeste
+65,Carla Nascimento,Campinas,SP,Sudeste
+66,Mariana Souza,Manaus,AM,Norte
+67,Tatiane Nascimento,São Paulo,SP,Sudeste
+68,Nicolas Dias,Londrina,PR,Sul
+69,Isabela Alves,Joinville,SC,Sul
+70,Henrique Lima,Niterói,RJ,Sudeste
+71,Olívia Costa,Goiânia,GO,Centro-Oeste
+72,Ana Almeida,Porto Alegre,RS,Sul
+73,Carla Rocha,Santos,SP,Sudeste
+74,Eduarda Ribeiro,Brasília,DF,Centro-Oeste
+75,Lucas Gomes,São José dos Campos,SP,Sudeste
+76,João Nascimento,Belém,PA,Norte
+77,Sérgio Gomes,Goiânia,GO,Centro-Oeste
+78,Eduarda Lima,São Paulo,SP,Sudeste
+79,Sérgio Rodrigues,São José dos Campos,SP,Sudeste
+80,Gabriela Costa,Santos,SP,Sudeste
+81,Rafaela Lopes,São Paulo,SP,Sudeste
+82,Carla Carvalho,Fortaleza,CE,Nordeste
+83,Ana Costa,Recife,PE,Nordeste
+84,Felipe Almeida,Londrina,PR,Sul
+85,Sérgio Silva,Campinas,SP,Sudeste
+86,Sérgio Santos,Fortaleza,CE,Nordeste
+87,Nicolas Rodrigues,Santos,SP,Sudeste
+88,Bruno Ribeiro,Campinas,SP,Sudeste
+89,Daniel Ribeiro,Recife,PE,Nordeste
+90,Victor Rodrigues,Goiânia,GO,Centro-Oeste
+91,Felipe Ferreira,Brasília,DF,Centro-Oeste
+92,Felipe Costa,Recife,PE,Nordeste
+93,Henrique Lima,São Paulo,SP,Sudeste
+94,Mariana Santos,Brasília,DF,Centro-Oeste
+95,Gabriela Almeida,Rio de Janeiro,RJ,Sudeste
+96,Henrique Silva,Joinville,SC,Sul
+97,Karina Lima,Brasília,DF,Centro-Oeste
+98,Lucas Barbosa,Niterói,RJ,Sudeste
+99,Ana Souza,Brasília,DF,Centro-Oeste
+100,Felipe Dias,Manaus,AM,Norte
+101,Bruno Souza,Caxias do Sul,RS,Sul
+102,Karina Carvalho,Porto Alegre,RS,Sul
+103,Mariana Dias,São Paulo,SP,Sudeste
+104,Nicolas Silva,Curitiba,PR,Sul
+105,Lucas Carvalho,Santos,SP,Sudeste
+106,Victor Costa,Florianópolis,SC,Sul
+107,João Barbosa,Niterói,RJ,Sudeste
+108,Karina Martins,Salvador,BA,Nordeste
+109,Gabriela Carvalho,Joinville,SC,Sul
+110,Felipe Nascimento,Londrina,PR,Sul
+111,Sérgio Silva,Campinas,SP,Sudeste
+112,Nicolas Dias,Caxias do Sul,RS,Sul
+113,Olívia Almeida,Belo Horizonte,MG,Sudeste
+114,Rafaela Lopes,Recife,PE,Nordeste
+115,Carla Gomes,Londrina,PR,Sul
+116,Carla Pereira,Florianópolis,SC,Sul
+117,Gabriela Rodrigues,Campinas,SP,Sudeste
+118,Pedro Nascimento,Fortaleza,CE,Nordeste
+119,Olívia Carvalho,Brasília,DF,Centro-Oeste
+120,Mariana Lopes,Rio de Janeiro,RJ,Sudeste
+121,Ana Souza,Recife,PE,Nordeste
+122,Felipe Barbosa,Belo Horizonte,MG,Sudeste
+123,Daniel Almeida,Ribeirão Preto,SP,Sudeste
+124,Rafaela Rocha,Caxias do Sul,RS,Sul
+125,Victor Barbosa,Uberlândia,MG,Sudeste
+126,Felipe Lopes,Belo Horizonte,MG,Sudeste
+127,Isabela Barbosa,Belo Horizonte,MG,Sudeste
+128,Isabela Almeida,Santos,SP,Sudeste
+129,Henrique Lima,Rio de Janeiro,RJ,Sudeste
+130,Eduarda Rodrigues,Campinas,SP,Sudeste
+131,Gabriela Oliveira,Uberlândia,MG,Sudeste
+132,Sérgio Almeida,Belo Horizonte,MG,Sudeste
+133,Nicolas Martins,Goiânia,GO,Centro-Oeste
+134,Tatiane Martins,Uberlândia,MG,Sudeste
+135,João Martins,Fortaleza,CE,Nordeste
+136,Sérgio Rocha,Recife,PE,Nordeste
+137,Pedro Pereira,Ribeirão Preto,SP,Sudeste
+138,Ana Martins,Niterói,RJ,Sudeste
+139,Felipe Almeida,Goiânia,GO,Centro-Oeste
+140,Mariana Dias,Curitiba,PR,Sul
+141,Carla Carvalho,Ribeirão Preto,SP,Sudeste
+142,Felipe Santos,Santos,SP,Sudeste
+143,Gabriela Almeida,Niterói,RJ,Sudeste
+144,Isabela Carvalho,São Paulo,SP,Sudeste
+145,Pedro Silva,Salvador,BA,Nordeste
+146,Lucas Pereira,Florianópolis,SC,Sul
+147,Ana Pereira,São Paulo,SP,Sudeste
+148,Victor Rodrigues,Ribeirão Preto,SP,Sudeste
+149,Daniel Dias,Manaus,AM,Norte
+150,Isabela Ribeiro,São José dos Campos,SP,Sudeste
+151,Daniel Ferreira,Manaus,AM,Norte
+152,Tatiane Silva,Goiânia,GO,Centro-Oeste
+153,Mariana Alves,Campinas,SP,Sudeste
+154,Daniel Gomes,Fortaleza,CE,Nordeste
+155,Tatiane Santos,Niterói,RJ,Sudeste
+156,Lucas Oliveira,Uberlândia,MG,Sudeste
+157,Ana Carvalho,Fortaleza,CE,Nordeste
+158,Nicolas Ribeiro,Joinville,SC,Sul
+159,Eduarda Carvalho,São José dos Campos,SP,Sudeste
+160,Isabela Nascimento,Fortaleza,CE,Nordeste
+161,Olívia Carvalho,Fortaleza,CE,Nordeste
+162,Karina Pereira,Fortaleza,CE,Nordeste
+163,Isabela Almeida,Ribeirão Preto,SP,Sudeste
+164,Tatiane Nascimento,Joinville,SC,Sul
+165,Ana Lopes,Fortaleza,CE,Nordeste
+166,Pedro Alves,Niterói,RJ,Sudeste
+167,Karina Lima,Brasília,DF,Centro-Oeste
+168,Sérgio Silva,Curitiba,PR,Sul
+169,Carla Pereira,Feira de Santana,BA,Nordeste
+170,Sérgio Pereira,Feira de Santana,BA,Nordeste
+171,Olívia Silva,Campinas,SP,Sudeste
+172,Mariana Pereira,Niterói,RJ,Sudeste
+173,Pedro Rocha,Londrina,PR,Sul
+174,Sérgio Costa,Niterói,RJ,Sudeste
+175,Isabela Gomes,São Paulo,SP,Sudeste
+176,Gabriela Costa,São José dos Campos,SP,Sudeste
+177,Felipe Alves,Ribeirão Preto,SP,Sudeste
+178,Isabela Dias,Belém,PA,Norte
+179,Daniel Alves,Santos,SP,Sudeste
+180,Felipe Gomes,São José dos Campos,SP,Sudeste
+181,Eduarda Lima,São Paulo,SP,Sudeste
+182,Sérgio Gomes,Salvador,BA,Nordeste
+183,Pedro Souza,Brasília,DF,Centro-Oeste
+184,Pedro Lopes,Belo Horizonte,MG,Sudeste
+185,Bruno Lima,Manaus,AM,Norte
+186,Daniel Oliveira,Rio de Janeiro,RJ,Sudeste
+187,Tatiane Santos,São José dos Campos,SP,Sudeste
+188,João Oliveira,Belém,PA,Norte
+189,Sérgio Carvalho,Porto Alegre,RS,Sul
+190,Rafaela Martins,Uberlândia,MG,Sudeste
+191,João Dias,Belém,PA,Norte
+192,Tatiane Nascimento,São Paulo,SP,Sudeste
+193,Gabriela Alves,São Paulo,SP,Sudeste
+194,Felipe Pereira,São Paulo,SP,Sudeste
+195,Felipe Silva,Uberlândia,MG,Sudeste
+196,João Santos,Santos,SP,Sudeste
+197,Olívia Oliveira,Feira de Santana,BA,Nordeste
+198,Tatiane Alves,Belo Horizonte,MG,Sudeste
+199,Eduarda Lima,Fortaleza,CE,Nordeste
+200,Bruno Ferreira,Recife,PE,Nordeste
+201,Olívia Souza,Uberlândia,MG,Sudeste
+202,Mariana Lima,Uberlândia,MG,Sudeste
+203,Olívia Oliveira,Caxias do Sul,RS,Sul
+204,Karina Nascimento,São Paulo,SP,Sudeste
+205,Henrique Dias,Porto Alegre,RS,Sul
+206,Isabela Dias,Campinas,SP,Sudeste
+207,Pedro Barbosa,Joinville,SC,Sul
+208,Felipe Dias,Uberlândia,MG,Sudeste
+209,Carla Lopes,Niterói,RJ,Sudeste
+210,Karina Souza,Brasília,DF,Centro-Oeste
+211,Nicolas Lopes,Ribeirão Preto,SP,Sudeste
+212,Sérgio Santos,Uberlândia,MG,Sudeste
+213,Isabela Costa,Ribeirão Preto,SP,Sudeste
+214,Rafaela Silva,Joinville,SC,Sul
+215,Nicolas Santos,Santos,SP,Sudeste
+216,Victor Lopes,Porto Alegre,RS,Sul
+217,Gabriela Lima,Londrina,PR,Sul
+218,Olívia Lopes,São José dos Campos,SP,Sudeste
+219,Henrique Ferreira,Rio de Janeiro,RJ,Sudeste
+220,Sérgio Carvalho,São Paulo,SP,Sudeste
+221,Olívia Souza,Florianópolis,SC,Sul
+222,Pedro Gomes,Uberlândia,MG,Sudeste
+223,Nicolas Lopes,Belém,PA,Norte
+224,Olívia Rocha,Campinas,SP,Sudeste
+225,Victor Barbosa,Salvador,BA,Nordeste
+226,Carla Lima,Recife,PE,Nordeste
+227,Karina Barbosa,São Paulo,SP,Sudeste
+228,João Gomes,Fortaleza,CE,Nordeste
+229,Eduarda Almeida,Londrina,PR,Sul
+230,Karina Rocha,Recife,PE,Nordeste
+231,Olívia Costa,Brasília,DF,Centro-Oeste
+232,Tatiane Martins,Ribeirão Preto,SP,Sudeste
+233,Bruno Costa,Feira de Santana,BA,Nordeste
+234,Mariana Rodrigues,Belo Horizonte,MG,Sudeste
+235,Eduarda Barbosa,Manaus,AM,Norte
+236,Daniel Almeida,Ribeirão Preto,SP,Sudeste
+237,Ana Rodrigues,Belo Horizonte,MG,Sudeste
+238,Carla Lopes,Recife,PE,Nordeste
+239,Karina Nascimento,Salvador,BA,Nordeste
+240,Karina Rocha,Niterói,RJ,Sudeste
+241,Pedro Rocha,São Paulo,SP,Sudeste
+242,Henrique Gomes,Belém,PA,Norte
+243,Nicolas Souza,Recife,PE,Nordeste
+244,Olívia Ferreira,Salvador,BA,Nordeste
+245,Bruno Costa,Recife,PE,Nordeste
+246,Lucas Ribeiro,Belo Horizonte,MG,Sudeste
+247,Rafaela Carvalho,Curitiba,PR,Sul
+248,Felipe Ferreira,Ribeirão Preto,SP,Sudeste
+249,Victor Pereira,Belo Horizonte,MG,Sudeste
+250,Henrique Almeida,Joinville,SC,Sul
+251,Isabela Silva,Goiânia,GO,Centro-Oeste
+252,João Rocha,Ribeirão Preto,SP,Sudeste
+253,Lucas Dias,Ribeirão Preto,SP,Sudeste
+254,Isabela Almeida,Fortaleza,CE,Nordeste
+255,Mariana Lopes,Ribeirão Preto,SP,Sudeste
+256,Tatiane Ribeiro,Caxias do Sul,RS,Sul
+257,Ana Martins,São José dos Campos,SP,Sudeste
+258,Bruno Nascimento,Feira de Santana,BA,Nordeste
+259,Henrique Nascimento,Recife,PE,Nordeste
+260,Gabriela Nascimento,Campinas,SP,Sudeste
+261,Daniel Santos,Niterói,RJ,Sudeste
+262,Bruno Dias,Rio de Janeiro,RJ,Sudeste
+263,Carla Gomes,Niterói,RJ,Sudeste
+264,Felipe Alves,São José dos Campos,SP,Sudeste
+265,Lucas Barbosa,Uberlândia,MG,Sudeste
+266,Felipe Lima,Goiânia,GO,Centro-Oeste
+267,João Costa,Recife,PE,Nordeste
+268,Carla Rodrigues,Salvador,BA,Nordeste
+269,Mariana Rocha,Niterói,RJ,Sudeste
+270,Ana Lima,Londrina,PR,Sul
+271,Lucas Lima,Caxias do Sul,RS,Sul
+272,Daniel Pereira,Uberlândia,MG,Sudeste
+273,Victor Pereira,Joinville,SC,Sul
+274,João Carvalho,São Paulo,SP,Sudeste
+275,Bruno Gomes,Belém,PA,Norte
+276,Daniel Pereira,Brasília,DF,Centro-Oeste
+277,Mariana Almeida,Niterói,RJ,Sudeste
+278,Tatiane Rodrigues,Brasília,DF,Centro-Oeste
+279,Pedro Nascimento,Niterói,RJ,Sudeste
+280,Bruno Ribeiro,Ribeirão Preto,SP,Sudeste
+281,Henrique Ribeiro,Santos,SP,Sudeste
+282,Sérgio Ribeiro,Santos,SP,Sudeste
+283,Gabriela Souza,Manaus,AM,Norte
+284,Carla Alves,Florianópolis,SC,Sul
+285,Bruno Costa,Campinas,SP,Sudeste
+286,Tatiane Alves,São José dos Campos,SP,Sudeste
+287,Gabriela Dias,Campinas,SP,Sudeste
+288,Karina Rodrigues,Recife,PE,Nordeste
+289,Isabela Rodrigues,Belém,PA,Norte
+290,Felipe Souza,Florianópolis,SC,Sul
+291,Eduarda Silva,Rio de Janeiro,RJ,Sudeste
+292,Tatiane Costa,Santos,SP,Sudeste
+293,Bruno Rodrigues,Salvador,BA,Nordeste
+294,Carla Lopes,Uberlândia,MG,Sudeste
+295,Rafaela Dias,São José dos Campos,SP,Sudeste
+296,Henrique Nascimento,São José dos Campos,SP,Sudeste
+297,João Almeida,Florianópolis,SC,Sul
+298,Bruno Lopes,Fortaleza,CE,Nordeste
+299,Daniel Lopes,Feira de Santana,BA,Nordeste
+300,Carla Oliveira,Rio de Janeiro,RJ,Sudeste
+301,Carla Rodrigues,São José dos Campos,SP,Sudeste
+302,Sérgio Costa,Niterói,RJ,Sudeste
+303,Olívia Barbosa,Porto Alegre,RS,Sul
+304,Daniel Rocha,Salvador,BA,Nordeste
+305,Nicolas Almeida,Brasília,DF,Centro-Oeste
+306,Karina Almeida,Rio de Janeiro,RJ,Sudeste
+307,Karina Carvalho,Niterói,RJ,Sudeste
+308,Lucas Rodrigues,Feira de Santana,BA,Nordeste
+309,Carla Oliveira,Fortaleza,CE,Nordeste
+310,Nicolas Souza,Feira de Santana,BA,Nordeste
+311,Eduarda Rocha,São José dos Campos,SP,Sudeste
+312,Sérgio Costa,Joinville,SC,Sul
+313,Lucas Carvalho,Brasília,DF,Centro-Oeste
+314,João Nascimento,Rio de Janeiro,RJ,Sudeste
+315,Tatiane Barbosa,Ribeirão Preto,SP,Sudeste
+316,Henrique Souza,Niterói,RJ,Sudeste
+317,Daniel Lima,Caxias do Sul,RS,Sul
+318,Sérgio Nascimento,Porto Alegre,RS,Sul
+319,Victor Lima,Santos,SP,Sudeste
+320,João Costa,Rio de Janeiro,RJ,Sudeste
+321,Eduarda Dias,Florianópolis,SC,Sul
+322,Eduarda Silva,São José dos Campos,SP,Sudeste
+323,Gabriela Martins,Uberlândia,MG,Sudeste
+324,Felipe Ribeiro,Niterói,RJ,Sudeste
+325,Tatiane Nascimento,São Paulo,SP,Sudeste
+326,Eduarda Ferreira,Salvador,BA,Nordeste
+327,Carla Lima,Uberlândia,MG,Sudeste
+328,Pedro Nascimento,Uberlândia,MG,Sudeste
+329,Gabriela Barbosa,Ribeirão Preto,SP,Sudeste
+330,Daniel Gomes,Joinville,SC,Sul
+331,Rafaela Gomes,Ribeirão Preto,SP,Sudeste
+332,Victor Santos,Santos,SP,Sudeste
+333,Gabriela Rodrigues,Recife,PE,Nordeste
+334,Karina Souza,Ribeirão Preto,SP,Sudeste
+335,Felipe Rodrigues,Rio de Janeiro,RJ,Sudeste
+336,Rafaela Rocha,Fortaleza,CE,Nordeste
+337,Carla Martins,Brasília,DF,Centro-Oeste
+338,Nicolas Silva,Belo Horizonte,MG,Sudeste
+339,Karina Dias,Uberlândia,MG,Sudeste
+340,Nicolas Gomes,São Paulo,SP,Sudeste
+341,Karina Ferreira,Recife,PE,Nordeste
+342,Lucas Oliveira,Belo Horizonte,MG,Sudeste
+343,Henrique Carvalho,Porto Alegre,RS,Sul
+344,Mariana Gomes,Salvador,BA,Nordeste
+345,Karina Ferreira,São Paulo,SP,Sudeste
+346,Rafaela Barbosa,Santos,SP,Sudeste
+347,Lucas Rodrigues,Campinas,SP,Sudeste
+348,Isabela Alves,Campinas,SP,Sudeste
+349,Carla Ferreira,Manaus,AM,Norte
+350,Olívia Dias,Recife,PE,Nordeste
+351,Tatiane Nascimento,Niterói,RJ,Sudeste
+352,Eduarda Almeida,Ribeirão Preto,SP,Sudeste
+353,João Lima,Caxias do Sul,RS,Sul
+354,Rafaela Oliveira,Niterói,RJ,Sudeste
+355,Bruno Santos,Niterói,RJ,Sudeste
+356,Carla Oliveira,Caxias do Sul,RS,Sul
+357,Olívia Dias,Curitiba,PR,Sul
+358,Olívia Dias,Joinville,SC,Sul
+359,Victor Lopes,Belo Horizonte,MG,Sudeste
+360,Olívia Souza,Fortaleza,CE,Nordeste
+361,Carla Barbosa,Florianópolis,SC,Sul
+362,Henrique Almeida,Belém,PA,Norte
+363,Lucas Ribeiro,Goiânia,GO,Centro-Oeste
+364,Nicolas Costa,Florianópolis,SC,Sul
+365,Karina Oliveira,Niterói,RJ,Sudeste
+366,João Lima,Salvador,BA,Nordeste
+367,Karina Oliveira,Porto Alegre,RS,Sul
+368,Lucas Gomes,Manaus,AM,Norte
+369,Eduarda Nascimento,Salvador,BA,Nordeste
+370,João Rocha,Niterói,RJ,Sudeste
+371,Eduarda Barbosa,Ribeirão Preto,SP,Sudeste
+372,Rafaela Ribeiro,Santos,SP,Sudeste
+373,Felipe Alves,Niterói,RJ,Sudeste
+374,Gabriela Pereira,Belém,PA,Norte
+375,Carla Gomes,Fortaleza,CE,Nordeste
+376,Rafaela Rocha,Fortaleza,CE,Nordeste
+377,Karina Nascimento,Ribeirão Preto,SP,Sudeste
+378,Eduarda Ferreira,São José dos Campos,SP,Sudeste
+379,Felipe Almeida,Santos,SP,Sudeste
+380,Henrique Almeida,Caxias do Sul,RS,Sul
+381,Henrique Rocha,Ribeirão Preto,SP,Sudeste
+382,Gabriela Ribeiro,Joinville,SC,Sul
+383,Olívia Gomes,Recife,PE,Nordeste
+384,Felipe Alves,Recife,PE,Nordeste
+385,Isabela Santos,Joinville,SC,Sul
+386,Sérgio Souza,Salvador,BA,Nordeste
+387,João Oliveira,Recife,PE,Nordeste
+388,Olívia Barbosa,Ribeirão Preto,SP,Sudeste
+389,Carla Pereira,Fortaleza,CE,Nordeste
+390,Ana Carvalho,São José dos Campos,SP,Sudeste
+391,Lucas Pereira,Rio de Janeiro,RJ,Sudeste
+392,Lucas Pereira,São Paulo,SP,Sudeste
+393,Karina Rodrigues,Santos,SP,Sudeste
+394,Pedro Rodrigues,Recife,PE,Nordeste
+395,Olívia Nascimento,São Paulo,SP,Sudeste
+396,Ana Lima,Campinas,SP,Sudeste
+397,Sérgio Nascimento,Curitiba,PR,Sul
+398,João Pereira,São Paulo,SP,Sudeste
+399,Henrique Carvalho,Joinville,SC,Sul
+400,Carla Souza,Fortaleza,CE,Nordeste
+401,Victor Rocha,São José dos Campos,SP,Sudeste
+402,Tatiane Pereira,Feira de Santana,BA,Nordeste
+403,Nicolas Silva,Porto Alegre,RS,Sul
+404,Tatiane Carvalho,São Paulo,SP,Sudeste
+405,Rafaela Ribeiro,São José dos Campos,SP,Sudeste
+406,Sérgio Barbosa,Recife,PE,Nordeste
+407,Mariana Lopes,Ribeirão Preto,SP,Sudeste
+408,Lucas Lima,Feira de Santana,BA,Nordeste
+409,Carla Ribeiro,São Paulo,SP,Sudeste
+410,Tatiane Costa,Santos,SP,Sudeste
+411,Sérgio Costa,Fortaleza,CE,Nordeste
+412,Olívia Lopes,Porto Alegre,RS,Sul
+413,Carla Almeida,Campinas,SP,Sudeste
+414,Bruno Alves,Brasília,DF,Centro-Oeste
+415,João Barbosa,Niterói,RJ,Sudeste
+416,Isabela Santos,Salvador,BA,Nordeste
+417,João Ribeiro,Brasília,DF,Centro-Oeste
+418,Karina Lima,Santos,SP,Sudeste
+419,Nicolas Martins,Feira de Santana,BA,Nordeste
+420,Karina Ferreira,Uberlândia,MG,Sudeste
+421,Lucas Barbosa,São Paulo,SP,Sudeste
+422,Nicolas Oliveira,Belo Horizonte,MG,Sudeste
+423,Sérgio Gomes,Rio de Janeiro,RJ,Sudeste
+424,Karina Gomes,Niterói,RJ,Sudeste
+425,Felipe Almeida,Rio de Janeiro,RJ,Sudeste
+426,Lucas Nascimento,Belém,PA,Norte
+427,Bruno Oliveira,Joinville,SC,Sul
+428,Lucas Barbosa,Recife,PE,Nordeste
+429,Ana Rodrigues,Fortaleza,CE,Nordeste
+430,Bruno Rodrigues,Santos,SP,Sudeste
+431,Lucas Martins,Manaus,AM,Norte
+432,Victor Rodrigues,Joinville,SC,Sul
+433,Lucas Almeida,Recife,PE,Nordeste
+434,Rafaela Ribeiro,Niterói,RJ,Sudeste
+435,Henrique Souza,Campinas,SP,Sudeste
+436,Pedro Barbosa,Rio de Janeiro,RJ,Sudeste
+437,Isabela Lima,Salvador,BA,Nordeste
+438,Victor Gomes,Feira de Santana,BA,Nordeste
+439,Gabriela Souza,São Paulo,SP,Sudeste
+440,Olívia Ferreira,Goiânia,GO,Centro-Oeste
+441,Carla Costa,Florianópolis,SC,Sul
+442,Sérgio Rocha,Santos,SP,Sudeste
+443,Felipe Ferreira,Recife,PE,Nordeste
+444,Daniel Alves,Recife,PE,Nordeste
+445,Pedro Silva,Niterói,RJ,Sudeste
+446,Olívia Rocha,São Paulo,SP,Sudeste
+447,Carla Gomes,Niterói,RJ,Sudeste
+448,Rafaela Carvalho,Recife,PE,Nordeste
+449,Eduarda Costa,Joinville,SC,Sul
+450,Olívia Barbosa,Rio de Janeiro,RJ,Sudeste
+451,Eduarda Carvalho,Belo Horizonte,MG,Sudeste
+452,Daniel Barbosa,Campinas,SP,Sudeste
+453,Felipe Costa,Goiânia,GO,Centro-Oeste
+454,Lucas Barbosa,Brasília,DF,Centro-Oeste
+455,Isabela Alves,Joinville,SC,Sul
+456,Eduarda Gomes,Porto Alegre,RS,Sul
+457,Rafaela Ferreira,Porto Alegre,RS,Sul
+458,Felipe Nascimento,Feira de Santana,BA,Nordeste
+459,Tatiane Santos,Fortaleza,CE,Nordeste
+460,Carla Santos,Manaus,AM,Norte
+461,Gabriela Dias,Belo Horizonte,MG,Sudeste
+462,Pedro Rocha,Santos,SP,Sudeste
+463,Pedro Pereira,Recife,PE,Nordeste
+464,João Almeida,São Paulo,SP,Sudeste
+465,Felipe Almeida,Uberlândia,MG,Sudeste
+466,Gabriela Costa,Caxias do Sul,RS,Sul
+467,Karina Ribeiro,Belém,PA,Norte
+468,Lucas Barbosa,Londrina,PR,Sul
+469,Henrique Almeida,Ribeirão Preto,SP,Sudeste
+470,Henrique Rodrigues,Santos,SP,Sudeste
+471,Mariana Nascimento,Belo Horizonte,MG,Sudeste
+472,Karina Dias,Salvador,BA,Nordeste
+473,Felipe Lopes,Belém,PA,Norte
+474,Pedro Gomes,Belo Horizonte,MG,Sudeste
+475,Mariana Barbosa,Belo Horizonte,MG,Sudeste
+476,Gabriela Dias,Rio de Janeiro,RJ,Sudeste
+477,João Lopes,Caxias do Sul,RS,Sul
+478,João Rocha,São Paulo,SP,Sudeste
+479,Nicolas Rodrigues,Brasília,DF,Centro-Oeste
+480,Mariana Ribeiro,São Paulo,SP,Sudeste
+481,Tatiane Rocha,São José dos Campos,SP,Sudeste
+482,João Oliveira,Niterói,RJ,Sudeste
+483,Sérgio Lima,Fortaleza,CE,Nordeste
+484,Eduarda Souza,Niterói,RJ,Sudeste
+485,Sérgio Ribeiro,Salvador,BA,Nordeste
+486,Victor Barbosa,Rio de Janeiro,RJ,Sudeste
+487,Bruno Santos,Santos,SP,Sudeste
+488,Pedro Barbosa,Belo Horizonte,MG,Sudeste
+489,Karina Nascimento,Niterói,RJ,Sudeste
+490,Victor Gomes,Caxias do Sul,RS,Sul
+491,Tatiane Gomes,Belo Horizonte,MG,Sudeste
+492,Lucas Costa,Joinville,SC,Sul
+493,Tatiane Gomes,Recife,PE,Nordeste
+494,Victor Lopes,São José dos Campos,SP,Sudeste
+495,Tatiane Pereira,Feira de Santana,BA,Nordeste
+496,Felipe Barbosa,Caxias do Sul,RS,Sul
+497,Eduarda Pereira,São Paulo,SP,Sudeste
+498,Gabriela Silva,Uberlândia,MG,Sudeste
+499,Eduarda Carvalho,Feira de Santana,BA,Nordeste
+500,Rafaela Nascimento,Goiânia,GO,Centro-Oeste
+501,Eduarda Barbosa,Santos,SP,Sudeste
+502,Pedro Barbosa,Rio de Janeiro,RJ,Sudeste
+503,Olívia Rocha,Niterói,RJ,Sudeste
+504,Isabela Nascimento,Belo Horizonte,MG,Sudeste
+505,Isabela Rocha,Santos,SP,Sudeste
+506,João Alves,Feira de Santana,BA,Nordeste
+507,Karina Lopes,Niterói,RJ,Sudeste
+508,João Souza,Caxias do Sul,RS,Sul
+509,Mariana Ribeiro,Manaus,AM,Norte
+510,João Santos,São Paulo,SP,Sudeste
+511,Lucas Almeida,Joinville,SC,Sul
+512,Gabriela Alves,Fortaleza,CE,Nordeste
+513,Sérgio Lima,São José dos Campos,SP,Sudeste
+514,Tatiane Pereira,São José dos Campos,SP,Sudeste
+515,Henrique Pereira,Ribeirão Preto,SP,Sudeste
+516,Karina Lopes,Campinas,SP,Sudeste
+517,Ana Rocha,Belém,PA,Norte
+518,Nicolas Lopes,Belo Horizonte,MG,Sudeste
+519,João Costa,São Paulo,SP,Sudeste
+520,Carla Dias,São Paulo,SP,Sudeste
+521,Felipe Carvalho,Brasília,DF,Centro-Oeste
+522,Bruno Martins,Recife,PE,Nordeste
+523,João Santos,São José dos Campos,SP,Sudeste
+524,Victor Souza,Goiânia,GO,Centro-Oeste
+525,João Almeida,Belém,PA,Norte
+526,Eduarda Barbosa,Belo Horizonte,MG,Sudeste
+527,Daniel Costa,Ribeirão Preto,SP,Sudeste
+528,Isabela Ferreira,Santos,SP,Sudeste
+529,João Dias,Florianópolis,SC,Sul
+530,Felipe Nascimento,Fortaleza,CE,Nordeste
+531,Nicolas Barbosa,Niterói,RJ,Sudeste
+532,Daniel Ferreira,Belém,PA,Norte
+533,Karina Pereira,Ribeirão Preto,SP,Sudeste
+534,Henrique Almeida,Feira de Santana,BA,Nordeste
+535,João Dias,Salvador,BA,Nordeste
+536,Isabela Ribeiro,Salvador,BA,Nordeste
+537,Daniel Almeida,Niterói,RJ,Sudeste
+538,Rafaela Gomes,Feira de Santana,BA,Nordeste
+539,Lucas Nascimento,Campinas,SP,Sudeste
+540,Pedro Rodrigues,Uberlândia,MG,Sudeste
+541,Nicolas Rocha,Goiânia,GO,Centro-Oeste
+542,Henrique Nascimento,Brasília,DF,Centro-Oeste
+543,Rafaela Almeida,Londrina,PR,Sul
+544,Carla Dias,São José dos Campos,SP,Sudeste
+545,Rafaela Alves,Porto Alegre,RS,Sul
+546,Felipe Costa,Fortaleza,CE,Nordeste
+547,Daniel Alves,Feira de Santana,BA,Nordeste
+548,Carla Barbosa,Belo Horizonte,MG,Sudeste
+549,Olívia Rodrigues,Londrina,PR,Sul
+550,Tatiane Santos,Londrina,PR,Sul
+551,Ana Martins,São Paulo,SP,Sudeste
+552,Gabriela Dias,Ribeirão Preto,SP,Sudeste
+553,Lucas Oliveira,Curitiba,PR,Sul
+554,Carla Lopes,Ribeirão Preto,SP,Sudeste
+555,Felipe Rodrigues,Recife,PE,Nordeste
+556,Lucas Martins,Uberlândia,MG,Sudeste
+557,Mariana Oliveira,Florianópolis,SC,Sul
+558,Lucas Souza,São José dos Campos,SP,Sudeste
+559,Mariana Barbosa,Campinas,SP,Sudeste
+560,Ana Silva,Belém,PA,Norte
+561,Sérgio Carvalho,Curitiba,PR,Sul
+562,Henrique Almeida,Niterói,RJ,Sudeste
+563,Gabriela Souza,Ribeirão Preto,SP,Sudeste
+564,Victor Silva,São Paulo,SP,Sudeste
+565,Daniel Nascimento,São José dos Campos,SP,Sudeste
+566,Bruno Pereira,Feira de Santana,BA,Nordeste
+567,Olívia Pereira,Curitiba,PR,Sul
+568,Eduarda Barbosa,Belém,PA,Norte
+569,Tatiane Costa,Caxias do Sul,RS,Sul
+570,Henrique Gomes,Brasília,DF,Centro-Oeste
+571,Nicolas Gomes,São José dos Campos,SP,Sudeste
+572,Tatiane Ferreira,Caxias do Sul,RS,Sul
+573,Sérgio Lopes,Santos,SP,Sudeste
+574,Mariana Barbosa,Niterói,RJ,Sudeste
+575,Nicolas Rodrigues,Campinas,SP,Sudeste
+576,Sérgio Lopes,Campinas,SP,Sudeste
+577,João Rodrigues,Recife,PE,Nordeste
+578,Sérgio Carvalho,Manaus,AM,Norte
+579,Mariana Pereira,Santos,SP,Sudeste
+580,Carla Almeida,Fortaleza,CE,Nordeste
+581,Sérgio Alves,Ribeirão Preto,SP,Sudeste
+582,Victor Nascimento,São Paulo,SP,Sudeste
+583,Gabriela Dias,Salvador,BA,Nordeste
+584,Pedro Alves,Brasília,DF,Centro-Oeste
+585,João Silva,Campinas,SP,Sudeste
+586,Daniel Lopes,Goiânia,GO,Centro-Oeste
+587,Mariana Pereira,Londrina,PR,Sul
+588,Mariana Almeida,Londrina,PR,Sul
+589,João Lima,Niterói,RJ,Sudeste
+590,Olívia Souza,Recife,PE,Nordeste
+591,Karina Alves,Niterói,RJ,Sudeste
+592,Bruno Dias,Brasília,DF,Centro-Oeste
+593,Ana Lima,Londrina,PR,Sul
+594,João Rodrigues,Campinas,SP,Sudeste
+595,Mariana Dias,Fortaleza,CE,Nordeste
+596,Sérgio Costa,Ribeirão Preto,SP,Sudeste
+597,Pedro Almeida,Santos,SP,Sudeste
+598,Felipe Rodrigues,Feira de Santana,BA,Nordeste
+599,Felipe Rocha,Belém,PA,Norte
+600,Rafaela Santos,Fortaleza,CE,Nordeste
+601,Bruno Silva,Belo Horizonte,MG,Sudeste
+602,Carla Rodrigues,São José dos Campos,SP,Sudeste
+603,Olívia Ribeiro,São José dos Campos,SP,Sudeste
+604,Pedro Lopes,São José dos Campos,SP,Sudeste
+605,Sérgio Carvalho,São José dos Campos,SP,Sudeste
+606,Isabela Rocha,Belém,PA,Norte
+607,Rafaela Carvalho,Fortaleza,CE,Nordeste
+608,Daniel Souza,Curitiba,PR,Sul
+609,Gabriela Nascimento,Londrina,PR,Sul
+610,Isabela Martins,Ribeirão Preto,SP,Sudeste
+611,Olívia Dias,Campinas,SP,Sudeste
+612,João Oliveira,Florianópolis,SC,Sul
+613,Carla Martins,Niterói,RJ,Sudeste
+614,Bruno Silva,Salvador,BA,Nordeste
+615,Pedro Carvalho,Joinville,SC,Sul
+616,Tatiane Souza,Brasília,DF,Centro-Oeste
+617,Henrique Alves,Goiânia,GO,Centro-Oeste
+618,Isabela Santos,Goiânia,GO,Centro-Oeste
+619,Sérgio Dias,Florianópolis,SC,Sul
+620,Karina Silva,Manaus,AM,Norte
+621,Mariana Oliveira,São José dos Campos,SP,Sudeste
+622,Henrique Dias,Fortaleza,CE,Nordeste
+623,Sérgio Costa,Rio de Janeiro,RJ,Sudeste
+624,Carla Barbosa,Feira de Santana,BA,Nordeste
+625,Bruno Souza,Belo Horizonte,MG,Sudeste
+626,Karina Nascimento,Recife,PE,Nordeste
+627,Karina Silva,Joinville,SC,Sul
+628,Pedro Pereira,Niterói,RJ,Sudeste
+629,Nicolas Ferreira,Joinville,SC,Sul
+630,Carla Nascimento,Campinas,SP,Sudeste
+631,Carla Oliveira,Ribeirão Preto,SP,Sudeste
+632,Eduarda Martins,Rio de Janeiro,RJ,Sudeste
+633,Carla Silva,Manaus,AM,Norte
+634,Lucas Lima,São Paulo,SP,Sudeste
+635,Felipe Carvalho,Uberlândia,MG,Sudeste
+636,Daniel Silva,São José dos Campos,SP,Sudeste
+637,Carla Nascimento,Caxias do Sul,RS,Sul
+638,Mariana Silva,Ribeirão Preto,SP,Sudeste
+639,Carla Rocha,Goiânia,GO,Centro-Oeste
+640,Tatiane Barbosa,Ribeirão Preto,SP,Sudeste
+641,Felipe Rodrigues,Santos,SP,Sudeste
+642,Pedro Rodrigues,Ribeirão Preto,SP,Sudeste
+643,Isabela Carvalho,São Paulo,SP,Sudeste
+644,Lucas Lima,Manaus,AM,Norte
+645,Victor Nascimento,São Paulo,SP,Sudeste
+646,Eduarda Gomes,Ribeirão Preto,SP,Sudeste
+647,Karina Nascimento,Niterói,RJ,Sudeste
+648,Olívia Costa,Belo Horizonte,MG,Sudeste
+649,João Costa,Porto Alegre,RS,Sul
+650,Pedro Costa,Ribeirão Preto,SP,Sudeste
+651,Karina Gomes,Feira de Santana,BA,Nordeste
+652,Tatiane Pereira,Niterói,RJ,Sudeste
+653,Mariana Ribeiro,São José dos Campos,SP,Sudeste
+654,Gabriela Dias,Belém,PA,Norte
+655,Sérgio Silva,Manaus,AM,Norte
+656,Gabriela Almeida,Recife,PE,Nordeste
+657,Nicolas Lopes,Santos,SP,Sudeste
+658,Henrique Lima,Joinville,SC,Sul
+659,Mariana Oliveira,Uberlândia,MG,Sudeste
+660,Tatiane Martins,Londrina,PR,Sul
+661,Sérgio Santos,Recife,PE,Nordeste
+662,Sérgio Nascimento,Florianópolis,SC,Sul
+663,Daniel Pereira,Joinville,SC,Sul
+664,Felipe Nascimento,Ribeirão Preto,SP,Sudeste
+665,Karina Carvalho,São Paulo,SP,Sudeste
+666,Isabela Pereira,Curitiba,PR,Sul
+667,Olívia Ribeiro,Rio de Janeiro,RJ,Sudeste
+668,Lucas Silva,Uberlândia,MG,Sudeste
+669,Nicolas Oliveira,Campinas,SP,Sudeste
+670,Lucas Gomes,Rio de Janeiro,RJ,Sudeste
+671,Rafaela Lopes,Rio de Janeiro,RJ,Sudeste
+672,Olívia Almeida,Niterói,RJ,Sudeste
+673,Bruno Souza,Santos,SP,Sudeste
+674,Daniel Ferreira,Goiânia,GO,Centro-Oeste
+675,Rafaela Ferreira,Londrina,PR,Sul
+676,Sérgio Carvalho,Manaus,AM,Norte
+677,Mariana Ferreira,Ribeirão Preto,SP,Sudeste
+678,Mariana Silva,Salvador,BA,Nordeste
+679,Olívia Dias,Belo Horizonte,MG,Sudeste
+680,Gabriela Alves,São Paulo,SP,Sudeste
+681,Tatiane Souza,Recife,PE,Nordeste
+682,Lucas Costa,São Paulo,SP,Sudeste
+683,Isabela Lopes,Londrina,PR,Sul
+684,Victor Martins,Porto Alegre,RS,Sul
+685,Lucas Ribeiro,Fortaleza,CE,Nordeste
+686,João Nascimento,Porto Alegre,RS,Sul
+687,Karina Souza,São Paulo,SP,Sudeste
+688,Felipe Ribeiro,Feira de Santana,BA,Nordeste
+689,Nicolas Nascimento,Ribeirão Preto,SP,Sudeste
+690,Nicolas Ferreira,Belo Horizonte,MG,Sudeste
+691,Sérgio Ferreira,Belo Horizonte,MG,Sudeste
+692,Felipe Costa,Fortaleza,CE,Nordeste
+693,Lucas Silva,Belo Horizonte,MG,Sudeste
+694,Mariana Rocha,Uberlândia,MG,Sudeste
+695,Nicolas Lopes,Uberlândia,MG,Sudeste
+696,Pedro Ferreira,São Paulo,SP,Sudeste
+697,Henrique Gomes,Campinas,SP,Sudeste
+698,Sérgio Gomes,Ribeirão Preto,SP,Sudeste
+699,Tatiane Lopes,Curitiba,PR,Sul
+700,Tatiane Souza,São José dos Campos,SP,Sudeste
+701,Lucas Rocha,Fortaleza,CE,Nordeste
+702,Olívia Rocha,Ribeirão Preto,SP,Sudeste
+703,Daniel Pereira,São Paulo,SP,Sudeste
+704,Olívia Lima,Rio de Janeiro,RJ,Sudeste
+705,Olívia Souza,Recife,PE,Nordeste
+706,Gabriela Dias,Feira de Santana,BA,Nordeste
+707,Felipe Nascimento,Campinas,SP,Sudeste
+708,Gabriela Santos,Londrina,PR,Sul
+709,Victor Rocha,Santos,SP,Sudeste
+710,João Dias,São José dos Campos,SP,Sudeste
+711,Daniel Rodrigues,Manaus,AM,Norte
+712,Bruno Lima,Brasília,DF,Centro-Oeste
+713,Eduarda Pereira,Santos,SP,Sudeste
+714,Henrique Martins,Uberlândia,MG,Sudeste
+715,Nicolas Martins,Belo Horizonte,MG,Sudeste
+716,Mariana Barbosa,Feira de Santana,BA,Nordeste
+717,Olívia Lopes,Rio de Janeiro,RJ,Sudeste
+718,Carla Almeida,Joinville,SC,Sul
+719,Carla Rocha,Niterói,RJ,Sudeste
+720,Gabriela Lopes,Santos,SP,Sudeste
+721,Karina Rocha,Caxias do Sul,RS,Sul
+722,Karina Santos,Ribeirão Preto,SP,Sudeste
+723,Ana Souza,Goiânia,GO,Centro-Oeste
+724,Olívia Almeida,Ribeirão Preto,SP,Sudeste
+725,Gabriela Rodrigues,Brasília,DF,Centro-Oeste
+726,Felipe Lima,Santos,SP,Sudeste
+727,Isabela Oliveira,Rio de Janeiro,RJ,Sudeste
+728,Bruno Martins,Porto Alegre,RS,Sul
+729,Nicolas Oliveira,Salvador,BA,Nordeste
+730,Gabriela Lopes,São José dos Campos,SP,Sudeste
+731,Henrique Barbosa,Florianópolis,SC,Sul
+732,Ana Costa,Fortaleza,CE,Nordeste
+733,Eduarda Lopes,Ribeirão Preto,SP,Sudeste
+734,Carla Souza,Santos,SP,Sudeste
+735,João Rodrigues,Rio de Janeiro,RJ,Sudeste
+736,Eduarda Oliveira,Curitiba,PR,Sul
+737,Victor Ferreira,Belo Horizonte,MG,Sudeste
+738,Eduarda Carvalho,Caxias do Sul,RS,Sul
+739,Gabriela Oliveira,Brasília,DF,Centro-Oeste
+740,Daniel Dias,Feira de Santana,BA,Nordeste
+741,Nicolas Costa,Recife,PE,Nordeste
+742,Isabela Oliveira,São José dos Campos,SP,Sudeste
+743,Victor Nascimento,São Paulo,SP,Sudeste
+744,João Alves,Curitiba,PR,Sul
+745,Mariana Gomes,Florianópolis,SC,Sul
+746,Pedro Martins,Ribeirão Preto,SP,Sudeste
+747,Victor Oliveira,Curitiba,PR,Sul
+748,Lucas Costa,São José dos Campos,SP,Sudeste
+749,Nicolas Ribeiro,Curitiba,PR,Sul
+750,Pedro Oliveira,São Paulo,SP,Sudeste
+751,Ana Lima,São Paulo,SP,Sudeste
+752,Mariana Barbosa,São José dos Campos,SP,Sudeste
+753,Nicolas Carvalho,Salvador,BA,Nordeste
+754,Sérgio Rocha,Caxias do Sul,RS,Sul
+755,Carla Gomes,Campinas,SP,Sudeste
+756,Eduarda Rocha,Rio de Janeiro,RJ,Sudeste
+757,João Carvalho,Salvador,BA,Nordeste
+758,Bruno Pereira,Ribeirão Preto,SP,Sudeste
+759,Daniel Almeida,Porto Alegre,RS,Sul
+760,João Ferreira,Campinas,SP,Sudeste
+761,Ana Ferreira,Uberlândia,MG,Sudeste
+762,Rafaela Barbosa,Recife,PE,Nordeste
+763,Felipe Ribeiro,Santos,SP,Sudeste
+764,Daniel Silva,Niterói,RJ,Sudeste
+765,Isabela Barbosa,São José dos Campos,SP,Sudeste
+766,Carla Lopes,Uberlândia,MG,Sudeste
+767,Bruno Lopes,Brasília,DF,Centro-Oeste
+768,Lucas Ferreira,São Paulo,SP,Sudeste
+769,Tatiane Souza,São José dos Campos,SP,Sudeste
+770,Ana Santos,Brasília,DF,Centro-Oeste
+771,Henrique Santos,Uberlândia,MG,Sudeste
+772,Eduarda Ferreira,Goiânia,GO,Centro-Oeste
+773,Sérgio Carvalho,Campinas,SP,Sudeste
+774,Nicolas Costa,São Paulo,SP,Sudeste
+775,Tatiane Ribeiro,São Paulo,SP,Sudeste
+776,Felipe Pereira,Recife,PE,Nordeste
+777,Mariana Oliveira,Brasília,DF,Centro-Oeste
+778,João Costa,Ribeirão Preto,SP,Sudeste
+779,Ana Ribeiro,São José dos Campos,SP,Sudeste
+780,João Nascimento,Santos,SP,Sudeste
+781,Tatiane Lopes,Belém,PA,Norte
+782,Sérgio Pereira,Ribeirão Preto,SP,Sudeste
+783,Ana Pereira,Curitiba,PR,Sul
+784,Karina Silva,Recife,PE,Nordeste
+785,João Souza,Campinas,SP,Sudeste
+786,Nicolas Lopes,Manaus,AM,Norte
+787,Isabela Oliveira,Campinas,SP,Sudeste
+788,Rafaela Carvalho,Feira de Santana,BA,Nordeste
+789,Olívia Oliveira,Porto Alegre,RS,Sul
+790,Mariana Oliveira,Porto Alegre,RS,Sul
+791,Nicolas Rodrigues,Santos,SP,Sudeste
+792,Karina Martins,Feira de Santana,BA,Nordeste
+793,Karina Almeida,São Paulo,SP,Sudeste
+794,Gabriela Rodrigues,Recife,PE,Nordeste
+795,Eduarda Souza,Ribeirão Preto,SP,Sudeste
+796,Karina Carvalho,Santos,SP,Sudeste
+797,Gabriela Almeida,Niterói,RJ,Sudeste
+798,Daniel Oliveira,Santos,SP,Sudeste
+799,Victor Santos,Santos,SP,Sudeste
+800,Eduarda Oliveira,Feira de Santana,BA,Nordeste
+801,Mariana Barbosa,Santos,SP,Sudeste
+802,Isabela Ferreira,Ribeirão Preto,SP,Sudeste
+803,Olívia Rocha,Salvador,BA,Nordeste
+804,Daniel Almeida,Campinas,SP,Sudeste
+805,Daniel Silva,Campinas,SP,Sudeste
+806,Eduarda Alves,Fortaleza,CE,Nordeste
+807,Carla Dias,Porto Alegre,RS,Sul
+808,Ana Oliveira,Ribeirão Preto,SP,Sudeste
+809,Eduarda Oliveira,Goiânia,GO,Centro-Oeste
+810,Daniel Santos,Manaus,AM,Norte
+811,Felipe Dias,Uberlândia,MG,Sudeste
+812,Pedro Silva,Niterói,RJ,Sudeste
+813,Felipe Ribeiro,Campinas,SP,Sudeste
+814,Isabela Lima,Belo Horizonte,MG,Sudeste
+815,Bruno Nascimento,Porto Alegre,RS,Sul
+816,João Lopes,Uberlândia,MG,Sudeste
+817,Bruno Oliveira,Campinas,SP,Sudeste
+818,Nicolas Alves,Florianópolis,SC,Sul
+819,Sérgio Silva,Belém,PA,Norte
+820,Pedro Rocha,Recife,PE,Nordeste
+821,Tatiane Barbosa,Niterói,RJ,Sudeste
+822,Felipe Silva,Rio de Janeiro,RJ,Sudeste
+823,Ana Lima,Ribeirão Preto,SP,Sudeste
+824,Rafaela Ribeiro,Recife,PE,Nordeste
+825,Felipe Souza,Campinas,SP,Sudeste
+826,Isabela Rocha,Fortaleza,CE,Nordeste
+827,Henrique Dias,Fortaleza,CE,Nordeste
+828,Lucas Ferreira,São José dos Campos,SP,Sudeste
+829,Karina Ribeiro,Goiânia,GO,Centro-Oeste
+830,Lucas Dias,Curitiba,PR,Sul
+831,Pedro Rocha,Niterói,RJ,Sudeste
+832,Bruno Oliveira,São José dos Campos,SP,Sudeste
+833,Henrique Silva,Curitiba,PR,Sul
+834,Karina Nascimento,Campinas,SP,Sudeste
+835,Karina Ferreira,Goiânia,GO,Centro-Oeste
+836,Bruno Silva,Campinas,SP,Sudeste
+837,Daniel Barbosa,Brasília,DF,Centro-Oeste
+838,Lucas Martins,Caxias do Sul,RS,Sul
+839,João Costa,Campinas,SP,Sudeste
+840,Nicolas Lopes,Florianópolis,SC,Sul
+841,Sérgio Nascimento,Recife,PE,Nordeste
+842,Tatiane Ferreira,Niterói,RJ,Sudeste
+843,Eduarda Ferreira,Feira de Santana,BA,Nordeste
+844,Tatiane Santos,Santos,SP,Sudeste
+845,Victor Pereira,Florianópolis,SC,Sul
+846,Pedro Rodrigues,Rio de Janeiro,RJ,Sudeste
+847,Henrique Ribeiro,Belém,PA,Norte
+848,Carla Costa,Uberlândia,MG,Sudeste
+849,Gabriela Pereira,Feira de Santana,BA,Nordeste
+850,Isabela Souza,Salvador,BA,Nordeste
+851,Mariana Almeida,Salvador,BA,Nordeste
+852,Nicolas Lopes,Brasília,DF,Centro-Oeste
+853,Sérgio Martins,Ribeirão Preto,SP,Sudeste
+854,Tatiane Pereira,São Paulo,SP,Sudeste
+855,Bruno Gomes,Santos,SP,Sudeste
+856,Daniel Oliveira,Niterói,RJ,Sudeste
+857,Felipe Oliveira,Curitiba,PR,Sul
+858,Karina Nascimento,Belém,PA,Norte
+859,Ana Carvalho,Manaus,AM,Norte
+860,Victor Carvalho,São Paulo,SP,Sudeste
+861,Karina Alves,Belém,PA,Norte
+862,Sérgio Rocha,Santos,SP,Sudeste
+863,João Pereira,Ribeirão Preto,SP,Sudeste
+864,Tatiane Rocha,Fortaleza,CE,Nordeste
+865,Bruno Ribeiro,São Paulo,SP,Sudeste
+866,João Nascimento,Belo Horizonte,MG,Sudeste
+867,Ana Alves,Santos,SP,Sudeste
+868,Carla Lopes,Fortaleza,CE,Nordeste
+869,Mariana Lopes,Uberlândia,MG,Sudeste
+870,Carla Rocha,Niterói,RJ,Sudeste
+871,Mariana Ribeiro,São Paulo,SP,Sudeste
+872,Isabela Almeida,Belo Horizonte,MG,Sudeste
+873,Isabela Dias,São Paulo,SP,Sudeste
+874,Carla Ribeiro,Fortaleza,CE,Nordeste
+875,Tatiane Pereira,Londrina,PR,Sul
+876,Rafaela Carvalho,Manaus,AM,Norte
+877,Tatiane Pereira,Belo Horizonte,MG,Sudeste
+878,Mariana Santos,Belo Horizonte,MG,Sudeste
+879,Daniel Almeida,Campinas,SP,Sudeste
+880,Gabriela Alves,Ribeirão Preto,SP,Sudeste
+881,Carla Carvalho,Campinas,SP,Sudeste
+882,Victor Lima,Rio de Janeiro,RJ,Sudeste
+883,Carla Martins,Londrina,PR,Sul
+884,Isabela Barbosa,Belo Horizonte,MG,Sudeste
+885,Victor Dias,Londrina,PR,Sul
+886,Daniel Carvalho,São José dos Campos,SP,Sudeste
+887,Tatiane Dias,Recife,PE,Nordeste
+888,Daniel Dias,Recife,PE,Nordeste
+889,Sérgio Ribeiro,Brasília,DF,Centro-Oeste
+890,Mariana Lopes,Caxias do Sul,RS,Sul
+891,Bruno Ferreira,Campinas,SP,Sudeste
+892,Victor Nascimento,Joinville,SC,Sul
+893,Bruno Martins,Brasília,DF,Centro-Oeste
+894,Henrique Santos,Feira de Santana,BA,Nordeste
+895,Lucas Silva,Niterói,RJ,Sudeste
+896,João Lima,Fortaleza,CE,Nordeste
+897,Henrique Rodrigues,Ribeirão Preto,SP,Sudeste
+898,Karina Lima,Salvador,BA,Nordeste
+899,Gabriela Almeida,Ribeirão Preto,SP,Sudeste
+900,Pedro Barbosa,Brasília,DF,Centro-Oeste
+901,Rafaela Ferreira,São José dos Campos,SP,Sudeste
+902,Mariana Rodrigues,Recife,PE,Nordeste
+903,Felipe Alves,Brasília,DF,Centro-Oeste
+904,Bruno Pereira,São Paulo,SP,Sudeste
+905,Lucas Alves,Ribeirão Preto,SP,Sudeste
+906,Rafaela Martins,Florianópolis,SC,Sul
+907,Ana Pereira,Niterói,RJ,Sudeste
+908,Felipe Lopes,Caxias do Sul,RS,Sul
+909,Lucas Ferreira,Fortaleza,CE,Nordeste
+910,Carla Gomes,São Paulo,SP,Sudeste
+911,Felipe Dias,Recife,PE,Nordeste
+912,Henrique Pereira,Joinville,SC,Sul
+913,Nicolas Barbosa,São Paulo,SP,Sudeste
+914,Pedro Rodrigues,Florianópolis,SC,Sul
+915,Henrique Lima,Caxias do Sul,RS,Sul
+916,Isabela Carvalho,Brasília,DF,Centro-Oeste
+917,Olívia Lima,Santos,SP,Sudeste
+918,Rafaela Nascimento,Rio de Janeiro,RJ,Sudeste
+919,Ana Barbosa,Belém,PA,Norte
+920,Sérgio Nascimento,Caxias do Sul,RS,Sul
+921,Daniel Lopes,Santos,SP,Sudeste
+922,Karina Lima,Santos,SP,Sudeste
+923,Gabriela Rodrigues,Curitiba,PR,Sul
+924,Bruno Nascimento,Niterói,RJ,Sudeste
+925,Eduarda Silva,Joinville,SC,Sul
+926,Isabela Carvalho,Rio de Janeiro,RJ,Sudeste
+927,Tatiane Dias,Fortaleza,CE,Nordeste
+928,Henrique Rocha,Joinville,SC,Sul
+929,Lucas Barbosa,Campinas,SP,Sudeste
+930,Sérgio Ferreira,Ribeirão Preto,SP,Sudeste
+931,Eduarda Lima,Salvador,BA,Nordeste
+932,Karina Oliveira,Campinas,SP,Sudeste
+933,João Carvalho,Recife,PE,Nordeste
+934,Lucas Lima,Caxias do Sul,RS,Sul
+935,Daniel Lopes,São José dos Campos,SP,Sudeste
+936,Tatiane Nascimento,Campinas,SP,Sudeste
+937,Rafaela Souza,Brasília,DF,Centro-Oeste
+938,Rafaela Gomes,Belo Horizonte,MG,Sudeste
+939,Eduarda Alves,Niterói,RJ,Sudeste
+940,Eduarda Costa,Brasília,DF,Centro-Oeste
+941,Carla Lopes,Rio de Janeiro,RJ,Sudeste
+942,Karina Santos,Santos,SP,Sudeste
+943,Gabriela Ferreira,Porto Alegre,RS,Sul
+944,Pedro Oliveira,Ribeirão Preto,SP,Sudeste
+945,Nicolas Martins,Uberlândia,MG,Sudeste
+946,Mariana Silva,Campinas,SP,Sudeste
+947,Lucas Silva,Brasília,DF,Centro-Oeste
+948,Ana Silva,Porto Alegre,RS,Sul
+949,Henrique Ribeiro,Rio de Janeiro,RJ,Sudeste
+950,Mariana Barbosa,Porto Alegre,RS,Sul
+951,Carla Santos,Santos,SP,Sudeste
+952,Olívia Barbosa,Caxias do Sul,RS,Sul
+953,Nicolas Rodrigues,Niterói,RJ,Sudeste
+954,Lucas Alves,Ribeirão Preto,SP,Sudeste
+955,Ana Pereira,Campinas,SP,Sudeste
+956,Gabriela Silva,Porto Alegre,RS,Sul
+957,Daniel Ribeiro,Salvador,BA,Nordeste
+958,Mariana Lima,Recife,PE,Nordeste
+959,Victor Santos,Florianópolis,SC,Sul
+960,Bruno Souza,Uberlândia,MG,Sudeste
+961,Daniel Rocha,Campinas,SP,Sudeste
+962,Gabriela Silva,São Paulo,SP,Sudeste
+963,Rafaela Lima,Porto Alegre,RS,Sul
+964,Nicolas Souza,Curitiba,PR,Sul
+965,João Souza,Recife,PE,Nordeste
+966,Gabriela Nascimento,Santos,SP,Sudeste
+967,Rafaela Alves,Niterói,RJ,Sudeste
+968,João Ferreira,Ribeirão Preto,SP,Sudeste
+969,Gabriela Lopes,Rio de Janeiro,RJ,Sudeste
+970,Ana Oliveira,Goiânia,GO,Centro-Oeste
+971,Eduarda Oliveira,Recife,PE,Nordeste
+972,Daniel Lima,Joinville,SC,Sul
+973,João Lima,Belo Horizonte,MG,Sudeste
+974,Felipe Santos,Fortaleza,CE,Nordeste
+975,Karina Carvalho,Salvador,BA,Nordeste
+976,Bruno Silva,Fortaleza,CE,Nordeste
+977,Karina Ribeiro,Brasília,DF,Centro-Oeste
+978,Carla Ribeiro,Fortaleza,CE,Nordeste
+979,Daniel Martins,Niterói,RJ,Sudeste
+980,Isabela Martins,Feira de Santana,BA,Nordeste
+981,Nicolas Ferreira,São Paulo,SP,Sudeste
+982,Felipe Souza,Uberlândia,MG,Sudeste
+983,Tatiane Almeida,Ribeirão Preto,SP,Sudeste
+984,Lucas Nascimento,Campinas,SP,Sudeste
+985,Pedro Lopes,Ribeirão Preto,SP,Sudeste
+986,Olívia Santos,Santos,SP,Sudeste
+987,Ana Barbosa,Recife,PE,Nordeste
+988,Karina Barbosa,Curitiba,PR,Sul
+989,Nicolas Pereira,Uberlândia,MG,Sudeste
+990,Eduarda Rocha,Brasília,DF,Centro-Oeste
+991,Ana Ferreira,Uberlândia,MG,Sudeste
+992,Pedro Ferreira,Ribeirão Preto,SP,Sudeste
+993,Karina Pereira,Niterói,RJ,Sudeste
+994,Bruno Barbosa,Ribeirão Preto,SP,Sudeste
+995,Mariana Pereira,Ribeirão Preto,SP,Sudeste
+996,Tatiane Almeida,Ribeirão Preto,SP,Sudeste
+997,Olívia Costa,Ribeirão Preto,SP,Sudeste
+998,Ana Souza,Rio de Janeiro,RJ,Sudeste
+999,Sérgio Rocha,São Paulo,SP,Sudeste
+1000,Victor Nascimento,Florianópolis,SC,Sul
