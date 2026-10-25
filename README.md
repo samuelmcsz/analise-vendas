@@ -1,235 +1,127 @@
-# 📊 Sales Analysis — Magalu | Data Analytics
+# Análise de Vendas — Magalu | Data Analytics
 
-> Study project in Data & Analytics using fictional data to simulate a sales analysis inspired by Magazine Luiza (Magalu).
+Projeto de estudo em Dados e Analytics com dados fictícios para simular uma análise de vendas inspirada no varejo da Magazine Luiza (Magalu).
 
-## 📌 About the Project
+> **Aviso:** este projeto não utiliza dados reais da Magazine Luiza. Clientes, produtos, vendas, valores e resultados são fictícios e destinados exclusivamente a fins educacionais e de portfólio.
 
-This project aims to practice SQL, databases, and data analysis through a sales simulation for a large retail company.
+## Objetivos
 
-Magazine Luiza (Magalu) was used only as a reference for creating the scenario.
+- Analisar o desempenho das vendas e a evolução mensal do faturamento.
+- Identificar produtos e categorias com maior faturamento e volume.
+- Avaliar clientes, regiões e formas de pagamento.
+- Praticar Python, MySQL e SQL.
+- Construir um dashboard no Power BI.
 
-> ⚠️ This project does not use real data from Magazine Luiza. All customers, products, sales, values, and results are fictional and were generated for educational purposes.
+## Tecnologias
 
-Throughout the project, the data will be analyzed to identify patterns, trends, and indicators that could support business decision-making.
+| Tecnologia | Utilização |
+|---|---|
+| Python | Geração dos dados fictícios e carga no banco |
+| MySQL | Armazenamento e consulta dos dados |
+| SQL | Análises, validações e KPIs |
+| Power BI | Dashboard e visualização (em desenvolvimento) |
+| Excel | Organização e exploração dos dados |
 
-## 🎯 Objectives
+## Estrutura do projeto
 
-* Analyze sales performance
-* Identify products with the highest revenue
-* Evaluate sales evolution over time
-* Compare performance across categories
-* Analyze customer behavior
-* Identify regions with the highest revenue
-* Create performance indicators (KPIs)
-* Practice SQL queries and database management
-* Develop a Power BI dashboard
-
-## 🛠️ Technologies Used
-
-| Technology | Use |
-| ---------- | --- |
-| Python | Generation of fictional data |
-| MySQL | Storage and management of data |
-| SQL | Queries and data analysis |
-| Power BI | Dashboard and visualization |
-| Excel | Data organization and exploration |
-| VS Code | Project development |
-
-## 🗂️ Project Structure
-
-```text
-analise-vendas-magalu/
-│
+\`\`\`text
+analise-vendas/
 ├── dados/
 │   ├── clientes.csv
 │   ├── produtos.csv
 │   └── vendas.csv
-│
 ├── sql/
 │   └── consultas.sql
-│
-├── README/
-│
-├── gerar.py
-```
+├── carregar_mysql.py
+└── README.md
+\`\`\`
 
-## 🗄️ Database
+## Base de dados
 
-The project uses three main tables.
+- **1.000 clientes**
+- **50 produtos**
+- **10.000 vendas**
+- **Período:** janeiro a dezembro de 2025
 
-### 👥 Customers
+O banco \`vendas_magalu\` possui três tabelas relacionadas:
 
-* Customer ID
-* Name
-* City
-* State
-* Region
+- \`clientes\`: identificação, nome, cidade, estado e região.
+- \`produtos\`: identificação, nome, categoria e preço.
+- \`vendas\`: data, cliente, produto, quantidade, preço unitário, desconto, faturamento e forma de pagamento.
 
-### 📦 Products
+## Como executar
 
-* Product ID
-* Product name
-* Category
-* Price
+### 1. Pré-requisitos
 
-### 🛒 Sales
+- Python 3 instalado.
+- MySQL Server instalado e em execução.
+- Usuário MySQL com permissão para criar e excluir bancos de dados.
 
-* Sale ID
-* Sale date
-* Customer
-* Product
-* Quantity
-* Unit price
-* Discount
-* Revenue
-* Payment method
+### 2. Instalar a dependência
 
-### 📊 Data Volume
+\`\`\`bash
+python -m pip install mysql-connector-python
+\`\`\`
 
-* 1,000 customers
-* 50 products
-* 10,000 sales
-* Analysis period: 2025
+### 3. Gerar os dados e carregar no MySQL
 
-## 📈 Analyses
+Na pasta raiz do projeto, execute:
 
-### 💰 Revenue
+\`\`\`bash
+python carregar_mysql.py
+\`\`\`
 
-* Total revenue
-* Average ticket
-* Monthly evolution
-* Comparison between periods
+O script único:
 
-### 📦 Products
+1. Verifica os CSVs na pasta \`dados/\`.
+2. Se algum dos três CSVs estiver ausente, gera os arquivos fictícios.
+3. Valida os cabeçalhos dos CSVs.
+4. Solicita a confirmação explícita \`RECRIAR\`.
+5. Recria o banco \`vendas_magalu\`, cria as tabelas e importa os registros.
 
-* Best-selling products
-* Products with highest revenue
-* Categories with best performance
-* Units sold
+**Atenção:** confirmar a operação apaga e recria o banco \`vendas_magalu\`, substituindo tabelas e dados que já existam nele. Faça backup antes se precisar preservar o banco. Se a confirmação não for digitada exatamente como solicitado, a carga é cancelada.
 
-### 👥 Customers
+Se os CSVs já existirem, o script os preserva e carrega os dados atuais; uma nova base só é gerada quando pelo menos um dos três arquivos estiver faltando.
 
-* Number of customers
-* Customers with the highest purchase volume
-* Revenue per customer
-* Distribution by region
+## Consultas SQL
 
-### 🌎 Regions
+O arquivo [\`sql/consultas.sql\`](sql/consultas.sql) reúne consultas para:
 
-* Revenue by region
-* Number of customers
-* Sales volume by location
+- Conferência do volume e validação da qualidade dos dados.
+- KPIs gerais, faturamento e ticket médio.
+- Evolução mensal e variação percentual.
+- Ranking de produtos e desempenho por categoria.
+- Análises de clientes e regiões.
+- Formas de pagamento e resumo executivo.
 
-### 💳 Payment Methods
+Execute as consultas após carregar o banco \`vendas_magalu\), usando MySQL 8 ou compatível.
 
-* Number of sales by method
-* Revenue by payment method
+## Análises e indicadores
 
-## 🔎 Business Questions
+As consultas cobrem faturamento total, quantidade de vendas, ticket médio, unidades vendidas, clientes ativos, evolução mensal, produtos e categorias de destaque, distribuição regional e formas de pagamento. Os resultados são calculados a partir dos CSVs carregados no banco.
 
-1. What was the total revenue?
-2. What was the average ticket?
-3. Which month had the highest revenue?
-4. Which products generated the most revenue?
-5. Which products had the highest sales volume?
-6. Which category performed best?
-7. Which region generated the most revenue?
-8. Which customers made the most purchases?
-9. Which payment method was used the most?
-10. Which periods performed best?
+Se os CSVs forem regenerados, os indicadores poderão mudar. Todos os resultados são referentes a dados fictícios e não devem ser interpretados como dados reais da Magalu.
 
-## 📊 Results
+## Dashboard Power BI
 
-The main results will be added after the analysis is completed.
+**Status:** em desenvolvimento.
 
-They will include:
+O dashboard deverá apresentar KPIs gerais, evolução mensal do faturamento, ranking de produtos, desempenho por categoria e região e distribuição por forma de pagamento.
 
-* Total revenue
-* Total sales
-* Average ticket
-* Best and worst periods
-* Top-performing products
-* Categories with highest revenue
-* Regions with best performance
-* Main patterns found in the data
+## Próximas etapas
 
-> All results presented are based on the fictional data used in this project.
+- [x] Criar a base fictícia e os CSVs.
+- [x] Criar o carregamento para MySQL.
+- [x] Desenvolver consultas SQL e KPIs.
+- [ ] Construir o dashboard no Power BI.
+- [ ] Documentar os principais insights com resultados efetivamente obtidos.
+- [ ] Finalizar a apresentação do projeto para portfólio.
 
-## 📊 Dashboard
+## Autor
 
-After completing the SQL analyses, the main indicators will be presented in a dashboard developed in Power BI.
+**Samuel Martins Cardoso**  
+Estudante de Dados e Analytics, com foco em SQL, bancos de dados, Excel e Power BI.
 
-The dashboard will include:
+---
 
-* Total revenue
-* Total sales
-* Units sold
-* Monthly evolution
-* Product ranking
-* Revenue by category
-* Revenue by region
-* Payment methods
-
-**Status:** 🚧 In development
-
-## 🚀 Next Steps
-
-- [x] Create fictional data
-- [x] Create database
-- [x] Generate 1,000 customers
-- [x] Generate 50 products
-- [x] Generate 10,000 sales
-- [x] Create initial SQL queries
-- [x] Analyze overall revenue
-- [x] Analyze monthly revenue
-- [x] Finalize product import
-- [x] Analyze products
-- [x] Analyze categories
-- [x] Analyze customers
-- [x] Analyze regions
-- [x] Analyze payment methods
-- [x] Create final KPIs
-- [ ] Develop dashboard
-- [ ] Document key insights
-- [ ] Finalize the project for portfolio
-
-## 📚 What I Am Practicing
-
-This project is part of my studies in Data & Analytics.
-
-During development, I am practicing:
-
-* SQL
-* MySQL
-* Database management
-* Table relationships
-* SELECT
-* WHERE
-* GROUP BY
-* ORDER BY
-* Aggregate functions
-* JOIN
-* KPI creation
-* Exploratory data analysis
-* Data visualization
-* Result interpretation
-
-The idea is to develop the project in a practical way, learning at each stage and documenting the progress.
-
-## 👨‍💻 Author
-
-**Samuel Martins Cardoso**
-
-Data & Analytics student, focused on SQL, databases, Excel, and Power BI.
-
-This project was developed as part of my practical learning in the data field, with the goal of turning theoretical knowledge into a project that simulates a real business problem.
-
-## ⚠️ Notice
-
-This is an educational and fictional project.
-
-Magazine Luiza (Magalu) was used only as a reference for creating the scenario.
-
-No data presented represents real, internal, or official company information.
-
-All customers, products, sales, values, and results were generated artificially for study and portfolio purposes.
+**Nota:** projeto educacional com dados gerados artificialmente. Nenhuma informação representa dados internos, oficiais ou reais da Magazine Luiza.
